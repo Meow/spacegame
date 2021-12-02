@@ -25,6 +25,10 @@ Global variables use `SCREAMING_SNAKE_CASE`.
 
 All sprite names must end with `_sprite`.
 
+### Using git
+
+Please set your git to `rebase` on pull, or run `git pull --rebase` every time you pull. If I see "Merge remote-tracking branch" commit in this repo, I will uwu until you die or turn into a furry.
+
 ### Running it
 
 Get gamemaker, compile and run. Should be really straightforward.
