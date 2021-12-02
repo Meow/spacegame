@@ -4,6 +4,7 @@
     {"id":{"name":"projectile_sprite","path":"sprites/projectile_sprite/projectile_sprite.yy",},"order":1,},
     {"id":{"name":"enemy_sprite","path":"sprites/enemy_sprite/enemy_sprite.yy",},"order":0,},
     {"id":{"name":"spaceship_sprite","path":"sprites/spaceship_sprite/spaceship_sprite.yy",},"order":2,},
+    {"id":{"name":"fps_draw","path":"objects/fps_draw/fps_draw.yy",},"order":0,},
     {"id":{"name":"player","path":"objects/player/player.yy",},"order":0,},
     {"id":{"name":"enemy","path":"objects/enemy/enemy.yy",},"order":1,},
     {"id":{"name":"dev","path":"rooms/dev/dev.yy",},"order":0,},
@@ -41,6 +42,7 @@
     {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/dev.yy","order":3,"resourceVersion":"1.0","name":"dev","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/debug.yy","order":4,"resourceVersion":"1.0","name":"debug","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
