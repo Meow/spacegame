@@ -7,4 +7,3 @@ for (var i = 0; i < gp_num; i++;)
 		gamepad_id = i;
 		break;
 	}
-	
