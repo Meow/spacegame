@@ -1,12 +1,20 @@
 {
   "resources": [
     {"id":{"name":"projectile","path":"objects/projectile/projectile.yy",},"order":2,},
+    {"id":{"name":"rocket_sprite","path":"sprites/rocket_sprite/rocket_sprite.yy",},"order":4,},
+    {"id":{"name":"explosion_sprite","path":"sprites/explosion_sprite/explosion_sprite.yy",},"order":3,},
+    {"id":{"name":"pickup","path":"objects/pickup/pickup.yy",},"order":6,},
     {"id":{"name":"projectile_sprite","path":"sprites/projectile_sprite/projectile_sprite.yy",},"order":1,},
+    {"id":{"name":"explosion","path":"objects/explosion/explosion.yy",},"order":5,},
+    {"id":{"name":"laser_sprite","path":"sprites/laser_sprite/laser_sprite.yy",},"order":5,},
     {"id":{"name":"enemy_sprite","path":"sprites/enemy_sprite/enemy_sprite.yy",},"order":0,},
+    {"id":{"name":"plasma_sprite","path":"sprites/plasma_sprite/plasma_sprite.yy",},"order":6,},
     {"id":{"name":"spaceship_sprite","path":"sprites/spaceship_sprite/spaceship_sprite.yy",},"order":2,},
     {"id":{"name":"fps_draw","path":"objects/fps_draw/fps_draw.yy",},"order":0,},
     {"id":{"name":"player","path":"objects/player/player.yy",},"order":0,},
     {"id":{"name":"enemy","path":"objects/enemy/enemy.yy",},"order":1,},
+    {"id":{"name":"item_sprite","path":"sprites/item_sprite/item_sprite.yy",},"order":7,},
+    {"id":{"name":"weapon_controller","path":"scripts/weapon_controller/weapon_controller.yy",},"order":0,},
     {"id":{"name":"dev","path":"rooms/dev/dev.yy",},"order":0,},
   ],
   "Options": [
