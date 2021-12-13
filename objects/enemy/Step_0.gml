@@ -5,6 +5,7 @@ if hp <= 0 {
 }
 var diff = max(0, last_damage_at + 250 - current_time);
 image_blend = make_colour_hsv(255, diff, 255);
+
 //
 // Movement
 //
@@ -57,5 +58,8 @@ switch movetype {
 			move_direction = !move_direction;
 		break;
 	default:
+		x = original_x;
+		y = original_y;
+
 		break;
 }

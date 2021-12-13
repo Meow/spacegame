@@ -16,44 +16,8 @@
     {"instances":[],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"FX","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"player","path":"objects/player/player.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":80.0,"resourceVersion":"1.0","name":"inst_107A8FF","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"enemy","path":"objects/enemy/enemy.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":176.0,"y":80.0,"resourceVersion":"1.0","name":"inst_6AD337A8","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"fps_draw","path":"objects/fps_draw/fps_draw.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-16.0,"y":0.0,"resourceVersion":"1.0","name":"inst_644A77D2","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[
-            {"propertyId":{"name":"move_reverse_wave_direction","path":"objects/enemy/enemy.yy",},"objectId":{"name":"enemy","path":"objects/enemy/enemy.yy",},"value":"False","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-            {"propertyId":{"name":"move_speed","path":"objects/enemy/enemy.yy",},"objectId":{"name":"enemy","path":"objects/enemy/enemy.yy",},"value":"2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-            {"propertyId":{"name":"movetype","path":"objects/enemy/enemy.yy",},"objectId":{"name":"enemy","path":"objects/enemy/enemy.yy",},"value":"circle","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-          ],"isDnd":false,"objectId":{"name":"enemy","path":"objects/enemy/enemy.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":96.0,"resourceVersion":"1.0","name":"inst_6F44FFC2","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[
-            {"propertyId":{"name":"move_reverse_wave_direction","path":"objects/enemy/enemy.yy",},"objectId":{"name":"enemy","path":"objects/enemy/enemy.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-          ],"isDnd":false,"objectId":{"name":"enemy","path":"objects/enemy/enemy.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":192.0,"y":64.0,"resourceVersion":"1.0","name":"inst_3D7124BD","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"enemy","path":"objects/enemy/enemy.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":144.0,"y":80.0,"resourceVersion":"1.0","name":"inst_46EFFD09","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[
-            {"propertyId":{"name":"move_reverse_wave_direction","path":"objects/enemy/enemy.yy",},"objectId":{"name":"enemy","path":"objects/enemy/enemy.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-          ],"isDnd":false,"objectId":{"name":"enemy","path":"objects/enemy/enemy.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":64.0,"resourceVersion":"1.0","name":"inst_186306A7","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[
-            {"propertyId":{"name":"item","path":"objects/pickup/pickup.yy",},"objectId":{"name":"pickup","path":"objects/pickup/pickup.yy",},"value":"plasma","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-            {"propertyId":{"name":"type","path":"objects/pickup/pickup.yy",},"objectId":{"name":"pickup","path":"objects/pickup/pickup.yy",},"value":"weapon","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-          ],"isDnd":false,"objectId":{"name":"pickup","path":"objects/pickup/pickup.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":16.0,"y":160.0,"resourceVersion":"1.0","name":"inst_21668E5F","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[
-            {"propertyId":{"name":"item","path":"objects/pickup/pickup.yy",},"objectId":{"name":"pickup","path":"objects/pickup/pickup.yy",},"value":"plasma","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-            {"propertyId":{"name":"type","path":"objects/pickup/pickup.yy",},"objectId":{"name":"pickup","path":"objects/pickup/pickup.yy",},"value":"weapon","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-          ],"isDnd":false,"objectId":{"name":"pickup","path":"objects/pickup/pickup.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":48.0,"y":128.0,"resourceVersion":"1.0","name":"inst_59C111C9","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[
-            {"propertyId":{"name":"item","path":"objects/pickup/pickup.yy",},"objectId":{"name":"pickup","path":"objects/pickup/pickup.yy",},"value":"plasma","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-            {"propertyId":{"name":"type","path":"objects/pickup/pickup.yy",},"objectId":{"name":"pickup","path":"objects/pickup/pickup.yy",},"value":"weapon","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-          ],"isDnd":false,"objectId":{"name":"pickup","path":"objects/pickup/pickup.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":80.0,"y":160.0,"resourceVersion":"1.0","name":"inst_2EDF0CDD","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[
-            {"propertyId":{"name":"item","path":"objects/pickup/pickup.yy",},"objectId":{"name":"pickup","path":"objects/pickup/pickup.yy",},"value":"plasma","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-            {"propertyId":{"name":"type","path":"objects/pickup/pickup.yy",},"objectId":{"name":"pickup","path":"objects/pickup/pickup.yy",},"value":"weapon","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-          ],"isDnd":false,"objectId":{"name":"pickup","path":"objects/pickup/pickup.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":160.0,"resourceVersion":"1.0","name":"inst_3BF9F62D","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[
-            {"propertyId":{"name":"item","path":"objects/pickup/pickup.yy",},"objectId":{"name":"pickup","path":"objects/pickup/pickup.yy",},"value":"plasma","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-            {"propertyId":{"name":"type","path":"objects/pickup/pickup.yy",},"objectId":{"name":"pickup","path":"objects/pickup/pickup.yy",},"value":"weapon","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-          ],"isDnd":false,"objectId":{"name":"pickup","path":"objects/pickup/pickup.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":192.0,"y":128.0,"resourceVersion":"1.0","name":"inst_43C11C24","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[
-            {"propertyId":{"name":"item","path":"objects/pickup/pickup.yy",},"objectId":{"name":"pickup","path":"objects/pickup/pickup.yy",},"value":"plasma","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-            {"propertyId":{"name":"type","path":"objects/pickup/pickup.yy",},"objectId":{"name":"pickup","path":"objects/pickup/pickup.yy",},"value":"weapon","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-          ],"isDnd":false,"objectId":{"name":"pickup","path":"objects/pickup/pickup.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":224.0,"y":160.0,"resourceVersion":"1.0","name":"inst_5C7AAAB7","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"lvl_controller","path":"objects/lvl_controller/lvl_controller.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-16.0,"y":176.0,"resourceVersion":"1.0","name":"inst_15EC43BC","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"spriteId":null,"colour":4278190080,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":15.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Background","tags":[],"resourceType":"GMRBackgroundLayer",},
   ],
@@ -62,18 +26,8 @@
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_107A8FF","path":"rooms/dev/dev.yy",},
-    {"name":"inst_6AD337A8","path":"rooms/dev/dev.yy",},
     {"name":"inst_644A77D2","path":"rooms/dev/dev.yy",},
-    {"name":"inst_6F44FFC2","path":"rooms/dev/dev.yy",},
-    {"name":"inst_3D7124BD","path":"rooms/dev/dev.yy",},
-    {"name":"inst_46EFFD09","path":"rooms/dev/dev.yy",},
-    {"name":"inst_186306A7","path":"rooms/dev/dev.yy",},
-    {"name":"inst_21668E5F","path":"rooms/dev/dev.yy",},
-    {"name":"inst_59C111C9","path":"rooms/dev/dev.yy",},
-    {"name":"inst_2EDF0CDD","path":"rooms/dev/dev.yy",},
-    {"name":"inst_3BF9F62D","path":"rooms/dev/dev.yy",},
-    {"name":"inst_43C11C24","path":"rooms/dev/dev.yy",},
-    {"name":"inst_5C7AAAB7","path":"rooms/dev/dev.yy",},
+    {"name":"inst_15EC43BC","path":"rooms/dev/dev.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

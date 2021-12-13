@@ -1,0 +1,35 @@
+{
+  "details": {
+    "length": 32,
+    "speed": 1,
+    "speed_increase_factor": 0,
+    "boss": false
+  },
+  "speakers": {},
+  "prefabs": {},
+  "events": [],
+  "objects": [
+    {
+      "object": "enemy",
+      "x": 12,
+      "y": 6,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "vertical_wave_returning"
+        }
+      ]
+    },
+    {
+      "object": "enemy",
+      "x": 24,
+      "y": 6,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "vertical_wave_returning"
+        }
+      ]
+    }
+  ]
+}

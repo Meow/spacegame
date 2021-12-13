@@ -1,5 +1,6 @@
 /// @description Pickup mechanics.
 var target = collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, player, false, true);
+
 if target != noone {
 	if type == "weapon" {
 		if target.current_weapon == item
@@ -10,5 +11,9 @@ if target != noone {
 		}
 	} else if type == "special"
 		target.current_special = item;
+
 	instance_destroy();
 }
+
+x = original_x;
+y = original_y;
