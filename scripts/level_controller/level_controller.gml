@@ -82,3 +82,109 @@ function layer_move(from, to) {
 		layer_element_move(elements[i], to);
 	}
 }
+
+// Progress movements of all elements on the layer (scroll).
+function layer_scroll_elements(lr, offset = 1) {
+	var elements = layer_get_all_elements(lr);
+
+	for (var i = 0; i < array_length_1d(elements); i++) {
+		switch layer_get_element_type(elements[i]) {
+			case layerelementtype_instance:
+				var inst = layer_instance_get_instance(elements[i]);
+				var orig_x = variable_instance_get(inst, "original_x");
+				variable_instance_set(inst, "original_x", orig_x != undefined ? orig_x - offset : variable_instance_get(inst, "x"));
+				break;
+			case layerelementtype_sprite:
+				var spr = layer_sprite_get_sprite(elements[i]);
+				layer_sprite_x(spr, layer_sprite_get_x(spr) - 1);
+			default:
+				continue;
+		}
+	}
+}
+
+// Spawn objects on background layer.
+function spawn_background_objects(lr, data, cur_x = 0, cur_y = 0) {
+	for (var i = 0; i < ds_list_size(data); i++) {
+		var obj = ds_list_find_value(data, i);
+
+		switch ds_map_find_value(obj, "mode") {
+			case "fill":
+				var inst = instance_create_layer(
+					cur_x,
+					cur_y,
+					lr,
+					background_tile
+				);
+				variable_instance_set(inst, "sprite", ds_map_find_value(obj, "sprite"));
+				break;
+			default:
+				continue;
+		}
+	}
+}
+
+// Garbage-collect a specific layer.
+function gc_layer(layer_id) {
+	var elements = layer_get_all_elements(layer_id);
+
+	for (var i = 0; i < array_length_1d(elements); i++) {
+		switch layer_get_element_type(elements[i]) {
+			case layerelementtype_instance:
+				var inst = layer_instance_get_instance(elements[i]);
+				if inst.x < -256
+					instance_destroy(inst);
+				break;
+			case layerelementtype_sprite:
+				var spr = layer_sprite_get_sprite(elements[i]);
+				if spr.x < -256
+					layer_sprite_destroy(spr);
+				break;
+			default:
+				continue;
+		}
+	}
+}
+
+// Garbage-collect background things that are definitely out-of-view.
+function gc_background() {
+	gc_layer(b_fill_layer);
+	gc_layer(b_far_layer);
+	gc_layer(b_mid_layer);
+	gc_layer(b_near_layer);
+	gc_layer(b_fore_layer);
+}
+
+// Clear all background things.
+function clear_background_layers() {
+	layer_destroy_instances(b_fill_layer);
+	layer_destroy_instances(b_far_layer);
+	layer_destroy_instances(b_mid_layer);
+	layer_destroy_instances(b_near_layer);
+	layer_destroy_instances(b_fore_layer);
+}
+
+// Read level data for background and populate.
+function populate_background_layers(level_data, cur_x = 0, cur_y = 0) {
+	var backgnd = ds_map_find_value(level_data, "background");
+	var fill = ds_map_find_value(backgnd, "fill");
+	var far = ds_map_find_value(backgnd, "far");
+	var mid = ds_map_find_value(backgnd, "mid");
+	var near = ds_map_find_value(backgnd, "near");
+	var fore = ds_map_find_value(backgnd, "fore");
+
+	if !is_undefined(fill)
+		spawn_background_objects(b_fill_layer, fill, cur_x, cur_y);
+
+	if !is_undefined(far)
+		spawn_background_objects(b_far_layer, far, cur_x, cur_y);
+
+	if !is_undefined(mid)
+		spawn_background_objects(b_mid_layer, mid, cur_x, cur_y);
+
+	if !is_undefined(near)
+		spawn_background_objects(b_near_layer, near, cur_x, cur_y);
+
+	if !is_undefined(fore)
+		spawn_background_objects(b_fore_layer, fore, cur_x, cur_y);
+}

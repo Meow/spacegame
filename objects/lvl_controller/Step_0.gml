@@ -21,29 +21,20 @@ if this_chunk_pos <= -256 {
 	layer_destroy_instances(this_chunk);
 	layer_move(next_chunk, this_chunk);
 	chunk_to_layer(next_chunk, level_chunks, current_chunk + 1);
+	populate_background_layers(level_data, 256);
+	gc_background();
 }
 
 // Move all elements.
 
-var elements = layer_get_all_elements(this_chunk);
+layer_scroll_elements(this_chunk);
+layer_scroll_elements(next_chunk);
 
-for (var i = 0; i < array_length_1d(elements); i++) {
-	if (layer_get_element_type(elements[i]) == layerelementtype_instance) {
-		var inst = layer_instance_get_instance(elements[i]);
-		var orig_x = variable_instance_get(inst, "original_x");
-		variable_instance_set(inst, "original_x", orig_x != undefined ? orig_x - 1 : variable_instance_get(inst, "x"));
-	}
-}
-
-var elements_next = layer_get_all_elements(next_chunk);
-
-for (var i = 0; i < array_length_1d(elements_next); i++) {
-	if (layer_get_element_type(elements_next[i]) == layerelementtype_instance) {
-		var inst = layer_instance_get_instance(elements_next[i]);
-		var orig_x = variable_instance_get(inst, "original_x");
-		variable_instance_set(inst, "original_x", orig_x != undefined ? orig_x - 1 : variable_instance_get(inst, "x"));
-	}
-}
+layer_scroll_elements(b_fill_layer);
+layer_scroll_elements(b_far_layer, 2);
+layer_scroll_elements(b_mid_layer, 3);
+layer_scroll_elements(b_near_layer, 4);
+layer_scroll_elements(b_fore_layer);
 
 // Increment chunk positions.
 

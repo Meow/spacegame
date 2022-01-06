@@ -8,7 +8,37 @@
   "speakers": {},
   "prefabs": {},
   "events": [],
-  "background": [],
+  "background": {
+    "fill": [
+      {
+        "sprite": "background_far_sprite",
+        "mode": "fill",
+        "condition": {
+          "op": "lte",
+          "key": "x",
+          "value": 128
+        }
+      }
+    ],
+    "far": [
+      {
+        "sprite": "background_obj_far_sprite",
+        "mode": "random",
+        "max": 8,
+        "min_y": 0,
+        "max_y": 6
+      }
+    ],
+    "mid": [
+      {
+        "sprite": "background_obj_mid_sprite",
+        "mode": "random",
+        "max": 2,
+        "min_y": 7,
+        "overlap": false
+      }
+    ]
+  },
   "objects": [
     {
       "object": "enemy",

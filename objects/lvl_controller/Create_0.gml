@@ -38,3 +38,6 @@ layer_set_visible(b_far_layer, true);
 layer_set_visible(b_mid_layer, true);
 layer_set_visible(b_near_layer, true);
 layer_set_visible(b_fore_layer, true);
+
+populate_background_layers(level_data);
+populate_background_layers(level_data, 256);
