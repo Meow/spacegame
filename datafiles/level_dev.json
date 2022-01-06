@@ -8,6 +8,7 @@
   "speakers": {},
   "prefabs": {},
   "events": [],
+  "background": [],
   "objects": [
     {
       "object": "enemy",
@@ -16,7 +17,7 @@
       "properties": [
         {
           "key": "movetype",
-          "value": "vertical_wave_returning"
+          "value": "circle"
         }
       ]
     },
@@ -27,7 +28,29 @@
       "properties": [
         {
           "key": "movetype",
-          "value": "vertical_wave_returning"
+          "value": "static"
+        }
+      ]
+    },
+    {
+      "object": "pickup",
+      "x": 12,
+      "y": 2,
+      "properties": [
+        {
+          "key": "item",
+          "value": "plasma"
+        }
+      ]
+    },
+    {
+      "object": "pickup",
+      "x": 12,
+      "y": 3,
+      "properties": [
+        {
+          "key": "item",
+          "value": "plasma"
         }
       ]
     }

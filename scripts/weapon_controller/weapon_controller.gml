@@ -45,6 +45,7 @@ function weapon_controller_fire_projectile(ply, current_weapon, current_weapon_l
 							image_xscale = 3;
 							image_yscale = 3;
 							max_hits = 3;
+							y -= 16;
 						}
 						break;
 				}

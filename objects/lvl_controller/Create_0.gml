@@ -25,3 +25,16 @@ level_chunks = make_chunks(level_data);
 
 chunk_to_layer(this_chunk, level_chunks, 0);
 chunk_to_layer(next_chunk, level_chunks, 1);
+
+// Initialize background layers.
+b_fill_layer = layer_create(190, "b_fill_layer");
+b_far_layer  = layer_create(189, "b_far_layer");
+b_mid_layer  = layer_create(188, "b_mid_layer");
+b_near_layer = layer_create(187, "b_near_layer");
+b_fore_layer = layer_create(140, "b_fore_layer");
+
+layer_set_visible(b_fill_layer, true);
+layer_set_visible(b_far_layer, true);
+layer_set_visible(b_mid_layer, true);
+layer_set_visible(b_near_layer, true);
+layer_set_visible(b_fore_layer, true);

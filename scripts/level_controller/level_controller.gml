@@ -8,20 +8,23 @@ function make_chunks(level_data) {
 	for (var i = 0; i < ds_list_size(objects); i++) {
 		var obj = ds_list_find_value(objects, i);
 		var chunk_id = floor(ds_map_find_value(obj, "x") / 16);
-		var chunk_value;
 
 		show_debug_message("inserting object into list");
 		show_debug_message("chunk_id: " + string(chunk_id));
 
 		top_chunk = chunk_id > top_chunk ? chunk_id : top_chunk;
 
-		if ds_list_is_list(chunks, chunk_id)
-			chunk_value = ds_list_find_value(chunks, chunk_id);
-		else
+		var chunk_value = ds_list_find_value(chunks, chunk_id);
+
+		if is_undefined(chunk_value)
 			chunk_value = ds_list_create();
 
 		ds_list_add(chunk_value, obj);
-		ds_list_insert(chunks, chunk_id, chunk_value);
+
+		if is_undefined(ds_list_find_value(chunks, chunk_id))
+			ds_list_insert(chunks, chunk_id, chunk_value);
+		else
+			ds_list_replace(chunks, chunk_id, chunk_value);
 	}
 
 	// Ensure all chunks are a valid list.
@@ -46,12 +49,28 @@ function chunk_to_layer(layer_id, chunks, chunk_id) {
 	for (var i = 0; i < ds_list_size(chunk); i++) {
 		var obj = ds_list_find_value(chunk, i);
 
-		instance_create_layer(
+		var ins = instance_create_layer(
 			ds_map_find_value(obj, "x") * (16 / (chunk_id + 1)) + (chunk_id != 0 ? 256 : 0),
 			ds_map_find_value(obj, "y") * 16,
 			layer_id,
 			asset_get_index(ds_map_find_value(obj, "object"))
 		);
+
+		// Set instance properties.
+		if !ds_map_is_list(obj, "properties")
+			continue;
+
+		var properties = ds_map_find_value(obj, "properties");
+
+		for (var i2 = 0; i2 < ds_list_size(properties); i2++) {
+			var property = ds_list_find_value(properties, i2);
+
+			variable_instance_set(
+				ins,
+				ds_map_find_value(property, "key"),
+				ds_map_find_value(property, "value")
+			);
+		}
 	}
 }
 

@@ -8,6 +8,7 @@
     {"id":{"name":"projectile_sprite","path":"sprites/projectile_sprite/projectile_sprite.yy",},"order":1,},
     {"id":{"name":"explosion","path":"objects/explosion/explosion.yy",},"order":5,},
     {"id":{"name":"fps_sprite","path":"sprites/fps_sprite/fps_sprite.yy",},"order":9,},
+    {"id":{"name":"diet_enumerable","path":"scripts/diet_enumerable/diet_enumerable.yy",},"order":3,},
     {"id":{"name":"laser_sprite","path":"sprites/laser_sprite/laser_sprite.yy",},"order":5,},
     {"id":{"name":"enemy_sprite","path":"sprites/enemy_sprite/enemy_sprite.yy",},"order":0,},
     {"id":{"name":"plasma_sprite","path":"sprites/plasma_sprite/plasma_sprite.yy",},"order":6,},
