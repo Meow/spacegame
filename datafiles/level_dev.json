@@ -6,7 +6,17 @@
     "boss": false
   },
   "speakers": {},
-  "prefabs": {},
+  "prefabs": {
+    "enemy_generic": {
+      "object": "enemy",
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "static"
+        }
+      ]
+    }
+  },
   "events": [],
   "background": {
     "fill": [
@@ -63,6 +73,83 @@
       ]
     },
     {
+      "object": "enemy",
+      "x": 32,
+      "y": 6,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "static"
+        }
+      ]
+    },
+    {
+      "object": "enemy",
+      "x": 38,
+      "y": 6,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "static"
+        }
+      ]
+    },
+    {
+      "object": "enemy",
+      "x": 38,
+      "y": 7,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "static"
+        }
+      ]
+    },
+    {
+      "object": "enemy",
+      "x": 38,
+      "y": 8,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "static"
+        }
+      ]
+    },
+    {
+      "object": "enemy",
+      "x": 50,
+      "y": 6,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "static"
+        }
+      ]
+    },
+    {
+      "object": "enemy",
+      "x": 50,
+      "y": 7,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "static"
+        }
+      ]
+    },
+    {
+      "object": "enemy",
+      "x": 50,
+      "y": 8,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "static"
+        }
+      ]
+    },
+    {
       "object": "pickup",
       "x": 12,
       "y": 2,
@@ -77,6 +164,28 @@
       "object": "pickup",
       "x": 12,
       "y": 3,
+      "properties": [
+        {
+          "key": "item",
+          "value": "plasma"
+        }
+      ]
+    },
+    {
+      "object": "pickup",
+      "x": 44,
+      "y": 2,
+      "properties": [
+        {
+          "key": "item",
+          "value": "plasma"
+        }
+      ]
+    },
+    {
+      "object": "pickup",
+      "x": 47,
+      "y": 2,
       "properties": [
         {
           "key": "item",

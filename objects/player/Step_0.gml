@@ -4,6 +4,8 @@
 // Movement code
 //
 
+is_moving = false;
+
 var add_x, add_y;
 add_x = 0;
 add_y = 0;
@@ -63,6 +65,9 @@ if bbox_bottom > room_height
 if bbox_right > room_width
     x += room_width - bbox_right - 1;
 
+if add_x != 0 || add_y != 0
+	is_moving = true;
+
 //
 // Attack code
 //
@@ -75,4 +80,15 @@ if (gamepad_is_connected(gamepad_id) &&
 			weapon_controller_fire_projectile(self, current_weapon, current_weapon_level);
 			next_shot = current_time + (shot_cooldown * 1000);
 		}
+}
+
+//
+// Taking damage
+//
+
+var target = collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, all, false, true);
+
+if target != noone &&
+   variable_instance_exists(target, "player_damage") {
+	ply_take_damage(self, variable_instance_get(target, "player_damage"));
 }

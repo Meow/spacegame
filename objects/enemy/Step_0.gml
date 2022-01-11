@@ -3,8 +3,9 @@ if hp <= 0 {
 	instance_create_layer(x, y, "FX", explosion);
 	instance_destroy();
 }
+
 var diff = max(0, last_damage_at + 250 - current_time);
-image_blend = make_colour_hsv(255, diff, 255);
+image_blend = make_color_hsv(255, diff, 255);
 
 //
 // Movement

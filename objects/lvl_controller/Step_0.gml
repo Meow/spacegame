@@ -30,6 +30,8 @@ if this_chunk_pos <= -256 {
 layer_scroll_elements(this_chunk);
 layer_scroll_elements(next_chunk);
 
+layer_scroll_elements(layer_get_id("FX"));
+
 layer_scroll_elements(b_fill_layer);
 layer_scroll_elements(b_far_layer, 2);
 layer_scroll_elements(b_mid_layer, 3);

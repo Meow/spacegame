@@ -8,3 +8,9 @@ function ds_list_map(o, cb) {
 
 	return out;
 }
+
+function ds_list_each(o, cb) {
+	for (var i = 0; i < ds_list_size(o); i++) {
+		cb(ds_list_find_value(o, i));
+	}
+}
