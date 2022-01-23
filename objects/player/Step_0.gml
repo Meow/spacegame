@@ -56,8 +56,10 @@ if add_x == 0 && add_y == 0 && gamepad_is_connected(gamepad_id) {
 	}
 }
 
-x = max(x - bbox_left, x + add_x);
-y = max(y - bbox_top, y + add_y);
+if can_move {
+	x = max(x - bbox_left, x + add_x);
+	y = max(y - bbox_top, y + add_y);
+}
 
 if bbox_bottom > room_height
     y += room_height - bbox_bottom - 1;
@@ -91,4 +93,9 @@ var target = collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, a
 if target != noone &&
    variable_instance_exists(target, "player_damage") {
 	ply_take_damage(self, variable_instance_get(target, "player_damage"));
+}
+
+if died_at != 0 && died_at + 1000 < current_time && current_realm != "gameover" {
+	current_realm = "gameover";
+	room_goto(gameover);
 }

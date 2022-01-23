@@ -1,12 +1,15 @@
 {
   "resources": [
     {"id":{"name":"projectile","path":"objects/projectile/projectile.yy",},"order":2,},
+    {"id":{"name":"gameover","path":"rooms/gameover/gameover.yy",},"order":1,},
     {"id":{"name":"rocket_sprite","path":"sprites/rocket_sprite/rocket_sprite.yy",},"order":4,},
     {"id":{"name":"explosion_sprite","path":"sprites/explosion_sprite/explosion_sprite.yy",},"order":3,},
     {"id":{"name":"pickup","path":"objects/pickup/pickup.yy",},"order":6,},
+    {"id":{"name":"gettext","path":"scripts/gettext/gettext.yy",},"order":5,},
     {"id":{"name":"obstacle_1x1_sprite","path":"sprites/obstacle_1x1_sprite/obstacle_1x1_sprite.yy",},"order":10,},
     {"id":{"name":"projectile_sprite","path":"sprites/projectile_sprite/projectile_sprite.yy",},"order":1,},
     {"id":{"name":"background_tile","path":"objects/background_tile/background_tile.yy",},"order":8,},
+    {"id":{"name":"text_render","path":"objects/text_render/text_render.yy",},"order":9,},
     {"id":{"name":"flame_sprite","path":"sprites/flame_sprite/flame_sprite.yy",},"order":17,},
     {"id":{"name":"explosion","path":"objects/explosion/explosion.yy",},"order":5,},
     {"id":{"name":"fps_sprite","path":"sprites/fps_sprite/fps_sprite.yy",},"order":9,},
@@ -18,15 +21,18 @@
     {"id":{"name":"background_far_sprite","path":"sprites/background_far_sprite/background_far_sprite.yy",},"order":13,},
     {"id":{"name":"plasma_sprite","path":"sprites/plasma_sprite/plasma_sprite.yy",},"order":6,},
     {"id":{"name":"lvl_controller","path":"objects/lvl_controller/lvl_controller.yy",},"order":7,},
+    {"id":{"name":"gameover_font","path":"fonts/gameover_font/gameover_font.yy",},"order":0,},
     {"id":{"name":"fps_draw","path":"objects/fps_draw/fps_draw.yy",},"order":0,},
     {"id":{"name":"lvl_controller_sprite","path":"sprites/lvl_controller_sprite/lvl_controller_sprite.yy",},"order":8,},
     {"id":{"name":"file","path":"scripts/file/file.yy",},"order":2,},
     {"id":{"name":"attack_controller","path":"scripts/attack_controller/attack_controller.yy",},"order":4,},
     {"id":{"name":"level_controller","path":"scripts/level_controller/level_controller.yy",},"order":1,},
     {"id":{"name":"background_sprite","path":"sprites/background_sprite/background_sprite.yy",},"order":15,},
+    {"id":{"name":"global_initializer","path":"objects/global_initializer/global_initializer.yy",},"order":10,},
     {"id":{"name":"player","path":"objects/player/player.yy",},"order":0,},
     {"id":{"name":"enemy","path":"objects/enemy/enemy.yy",},"order":1,},
     {"id":{"name":"spaceship_sprite","path":"sprites/spaceship_sprite/spaceship_sprite.yy",},"order":16,},
+    {"id":{"name":"normal_font","path":"fonts/normal_font/normal_font.yy",},"order":1,},
     {"id":{"name":"item_sprite","path":"sprites/item_sprite/item_sprite.yy",},"order":7,},
     {"id":{"name":"weapon_controller","path":"scripts/weapon_controller/weapon_controller.yy",},"order":0,},
     {"id":{"name":"bomb_sprite","path":"sprites/bomb_sprite/bomb_sprite.yy",},"order":11,},
@@ -48,6 +54,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"dev","path":"rooms/dev/dev.yy",},},
+    {"roomId":{"name":"gameover","path":"rooms/gameover/gameover.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -75,6 +82,9 @@
   ],
   "IncludedFiles": [
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"level_dev.json","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"PressStart2P-Regular.ttf","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"language_en.json","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"language_ru.json","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
     "IDEVersion": "2.3.7.606",
