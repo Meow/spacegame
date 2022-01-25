@@ -5,8 +5,10 @@ if skip_step > 0 {
 	exit;
 }
 
+var chunk_count = ds_list_size(level_chunks);
+
 // Stop moving on last chunk.
-if ds_list_size(level_chunks) - 1 == current_chunk
+if chunk_count - 1 == current_chunk
 	exit;
 
 // Move chunk, load next chunk.
@@ -15,7 +17,7 @@ if this_chunk_pos <= -256 {
 	next_chunk_pos = 256;
 	current_chunk++;
 
-	if ds_list_size(level_chunks) - 1 == current_chunk
+	if chunk_count - 1 == current_chunk
 		exit;
 
 	layer_destroy_instances(this_chunk);
@@ -42,5 +44,10 @@ layer_scroll_elements(b_fore_layer);
 
 this_chunk_pos--;
 next_chunk_pos--;
+
+// Update level progress.
+var glob_x = (256 - next_chunk_pos) + current_chunk * 256;
+var total_x = (chunk_count - 1) * 256;
+global.level_progression = glob_x / total_x;
 
 skip_step = 5 - current_speed;

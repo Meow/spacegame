@@ -14,6 +14,18 @@ if target != noone &&
 	variable_instance_set(target, "hp", target_hp - damage);
 	variable_instance_set(target, "last_damage_at", current_time);
 
+	with inflictor {
+		var add_score = 100;
+
+		if variable_instance_exists(target, "reward")
+			add_score = variable_instance_get(target, "reward");
+
+		if variable_instance_get(target, "hp") <= 0
+			add_score *= 10;
+
+		score += add_score;
+	}
+
 	next_damage = created_at + (dmgrate * 1000);
 	current_hits += 1;
 	last_hit = target;

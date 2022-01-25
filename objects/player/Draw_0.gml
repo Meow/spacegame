@@ -1,8 +1,15 @@
 /// @description Draw player and local FX.
 
+draw_set_alpha(1.0);
+
 // Movement FX.
 if is_moving
 	draw_sprite(flame_sprite, 0, x - 14, y);
+
+var target_alpha = 1.0;
+
+if dodge_end > current_time
+	target_alpha = 0.25;
 
 // 3 stages. Index must not exceed 2.
 // If health is 0, don't draw the sprite, as explosion
@@ -18,7 +25,7 @@ if hp > 0 {
 	var inv_frames_ms = invincibility_frames * 1000;
 	var diff = max(0, (last_damage_at + inv_frames_ms - current_time) / inv_frames_ms * 255);
 
-	draw_sprite_ext(spaceship_sprite, main_sprite_idx, x, y, 1, 1, 0, make_color_hsv(255, diff, 255), 1);
+	draw_sprite_ext(spaceship_sprite, main_sprite_idx, x, y, 1, 1, 0, make_color_hsv(255, diff, 255), target_alpha);
 }
 
 // Shields. Base index begins at 3.
@@ -31,3 +38,5 @@ if ap > 0 {
 	var shield_sprite_idx = min(6 - floor(ap / 32), 5);
 	draw_sprite(spaceship_sprite, shield_sprite_idx, x, y);
 }
+
+draw_set_alpha(1.0);

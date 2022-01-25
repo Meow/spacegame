@@ -1,6 +1,4 @@
 function ply_take_damage(ply, dmg) {
-	show_debug_message("ply_take_damage " + string(current_time));
-
 	with ply {
 		if last_damage_at + (invincibility_frames * 1000) < current_time {
 			if ap > 0

@@ -12,6 +12,7 @@
     {"id":{"name":"text_render","path":"objects/text_render/text_render.yy",},"order":9,},
     {"id":{"name":"flame_sprite","path":"sprites/flame_sprite/flame_sprite.yy",},"order":17,},
     {"id":{"name":"explosion","path":"objects/explosion/explosion.yy",},"order":5,},
+    {"id":{"name":"player_specials","path":"scripts/player_specials/player_specials.yy",},"order":6,},
     {"id":{"name":"fps_sprite","path":"sprites/fps_sprite/fps_sprite.yy",},"order":9,},
     {"id":{"name":"background_obj_far_sprite","path":"sprites/background_obj_far_sprite/background_obj_far_sprite.yy",},"order":14,},
     {"id":{"name":"diet_enumerable","path":"scripts/diet_enumerable/diet_enumerable.yy",},"order":3,},

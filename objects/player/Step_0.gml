@@ -56,6 +56,11 @@ if add_x == 0 && add_y == 0 && gamepad_is_connected(gamepad_id) {
 	}
 }
 
+if dodge_end > current_time {
+	add_x *= 2.25;
+	add_y *= 2.25;
+}
+
 if can_move {
 	x = max(x - bbox_left, x + add_x);
 	y = max(y - bbox_top, y + add_y);
@@ -85,13 +90,24 @@ if (gamepad_is_connected(gamepad_id) &&
 }
 
 //
+// Specials
+//
+if (gamepad_is_connected(gamepad_id) &&
+    gamepad_button_check(gamepad_id, gp_face2)) ||
+	keyboard_check(ord("E")) ||
+	keyboard_check(vk_rshift) {
+	perform_special(self);
+}
+
+//
 // Taking damage
 //
 
 var target = collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, all, false, true);
 
 if target != noone &&
-   variable_instance_exists(target, "player_damage") {
+   variable_instance_exists(target, "player_damage") &&
+   dodge_end < current_time {
 	ply_take_damage(self, variable_instance_get(target, "player_damage"));
 }
 
