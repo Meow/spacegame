@@ -64,3 +64,14 @@ switch movetype {
 
 		break;
 }
+
+//
+// Attacking
+//
+// Placeholder code for randomized attacks.
+
+if next_attack_at <= current_time {
+	instance_create_layer(bbox_left, y + 8, "Instances", projectile_enemy_laser);
+
+	next_attack_at = current_time + 500 * random(10);
+}

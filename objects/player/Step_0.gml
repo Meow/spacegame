@@ -108,7 +108,10 @@ var target = collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, a
 if target != noone &&
    variable_instance_exists(target, "player_damage") &&
    dodge_end < current_time {
-	ply_take_damage(self, variable_instance_get(target, "player_damage"));
+	var dmg = variable_instance_get(target, "player_damage");
+
+	if dmg > 0
+		ply_take_damage(self, dmg);
 }
 
 if died_at != 0 && died_at + 1000 < current_time && current_realm != "gameover" {
