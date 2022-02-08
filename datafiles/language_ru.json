@@ -1,4 +1,8 @@
 {
   "GAME OVER": "ВЫ УМЕРЛИ",
-  "Restart game to continue": "Перезапустите игру"
+  "Restart game to continue": "Перезапустите игру",
+  "VOLUME:": "ГРОМКОСТЬ:",
+  "LANGUAGE:": "ЯЗЫК:",
+  "PRESS [SHIFT] OR [ENTER] TO CONTINUE": "НАЖМИТЕ [SHIFT] ИЛИ [ENTER] ЧТОБЫ НАЧАТЬ",
+  "PRESS [START] TO CONTINUE": "НАЖМИТЕ [START] ЧТОБЫ НАЧАТЬ"
 }

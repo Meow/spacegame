@@ -1,4 +1,8 @@
 {
   "GAME OVER": "GAME OVER",
-  "Restart game to continue": "Restart game to continue"
+  "Restart game to continue": "Restart game to continue",
+  "VOLUME:": "VOLUME:",
+  "LANGUAGE:": "LANGUAGE:",
+  "PRESS [SHIFT] OR [ENTER] TO CONTINUE": "PRESS [SHIFT] OR [ENTER] TO CONTINUE",
+  "PRESS [START] TO CONTINUE": "PRESS [START] TO CONTINUE"
 }
