@@ -30,8 +30,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "technical",
+    "path": "folders/Objects/technical.yy",
   },
   "resourceVersion": "1.0",
   "name": "background_tile",

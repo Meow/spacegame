@@ -1,10 +1,7 @@
 {
-  "spriteId": {
-    "name": "lvl_controller_sprite",
-    "path": "sprites/lvl_controller_sprite/lvl_controller_sprite.yy",
-  },
+  "spriteId": null,
   "solid": false,
-  "visible": false,
+  "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -25,8 +22,8 @@
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
-    {"varType":1,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"chunk","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":1,"value":"5","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"level_speed","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"0.4","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"duration","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"3","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"multiplier","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [],
   "parent": {
@@ -34,7 +31,7 @@
     "path": "folders/Objects/technical.yy",
   },
   "resourceVersion": "1.0",
-  "name": "lvl_controller",
+  "name": "dash_controller",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -6,7 +6,13 @@ function perform_special(ply) {
 
 		switch current_special {
 			case "dodge":
-				perform_dodge_special(ply);
+				var movement = calc_movement(ply);
+
+				if movement[0] == 0 && movement[1] == 0
+					return;
+
+				perform_dodge_special(ply, movement);
+
 				break;
 			default:
 				break;
@@ -16,8 +22,14 @@ function perform_special(ply) {
 	}
 }
 
-function perform_dodge_special(ply) {
+function perform_dodge_special(ply, movement) {
+	var dodge_ctl = instance_create_layer(-16, -16, "Instances", dash_controller);
+
+	variable_instance_set(dodge_ctl, "ply", ply);
+	variable_instance_set(dodge_ctl, "dir_x", movement[0]);
+	variable_instance_set(dodge_ctl, "dir_y", movement[1]);
+
 	with ply {
-		dodge_end = current_time + 750;
+		dodge_end = current_time + 400;
 	}
 }
