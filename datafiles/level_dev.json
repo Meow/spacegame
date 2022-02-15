@@ -34,9 +34,9 @@
       {
         "sprite": "background_obj_far_sprite",
         "mode": "random",
-        "max": 8,
+        "max": 4,
         "min_y": 0,
-        "max_y": 6
+        "max_y": 8
       }
     ],
     "mid": [
@@ -44,14 +44,14 @@
         "sprite": "background_obj_mid_sprite",
         "mode": "random",
         "max": 2,
-        "min_y": 7,
+        "min_y": 4,
         "overlap": false
       }
     ]
   },
   "objects": [
     {
-      "object": "enemy",
+      "object": "enemy_shark",
       "x": 12,
       "y": 6,
       "properties": [
@@ -62,7 +62,7 @@
       ]
     },
     {
-      "object": "enemy",
+      "object": "enemy_shark",
       "x": 24,
       "y": 6,
       "properties": [
@@ -73,7 +73,7 @@
       ]
     },
     {
-      "object": "enemy",
+      "object": "enemy_shark",
       "x": 32,
       "y": 6,
       "properties": [
@@ -84,7 +84,7 @@
       ]
     },
     {
-      "object": "enemy",
+      "object": "enemy_shark",
       "x": 38,
       "y": 6,
       "properties": [
@@ -95,7 +95,7 @@
       ]
     },
     {
-      "object": "enemy",
+      "object": "enemy_shark",
       "x": 38,
       "y": 7,
       "properties": [
@@ -106,7 +106,7 @@
       ]
     },
     {
-      "object": "enemy",
+      "object": "enemy_shark",
       "x": 38,
       "y": 8,
       "properties": [
@@ -117,7 +117,7 @@
       ]
     },
     {
-      "object": "enemy",
+      "object": "enemy_shark",
       "x": 50,
       "y": 6,
       "properties": [
@@ -128,7 +128,7 @@
       ]
     },
     {
-      "object": "enemy",
+      "object": "enemy_shark",
       "x": 50,
       "y": 7,
       "properties": [
@@ -139,7 +139,7 @@
       ]
     },
     {
-      "object": "enemy",
+      "object": "enemy_shark",
       "x": 50,
       "y": 8,
       "properties": [

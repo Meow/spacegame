@@ -118,6 +118,32 @@ function spawn_background_objects(lr, data, cur_x = 0, cur_y = 0) {
 				);
 				variable_instance_set(inst, "sprite", ds_map_find_value(obj, "sprite"));
 				break;
+			case "random":
+				var sprite = ds_map_find_value(obj, "sprite");
+				var max_inst = ds_map_find_value_or(obj, "max", 32);
+				var min_y = ds_map_find_value_or(obj, "min_y", 0);
+				var max_y = ds_map_find_value_or(obj, "max_y", 12);
+				var overlap = ds_map_find_value_or(obj, "overlap", true);
+
+				for (var i = 0; i < max_inst; i++) {
+					var pos_x = cur_x + random_range(0, 256);
+					var pos_y = cur_y + random_range(min_y * 16, max_y * 16);
+
+					if overlap == false {
+						// todo: adjust position
+					}
+
+					var inst = instance_create_layer(
+						pos_x,
+						pos_y,
+						lr,
+						background_tile
+					);
+
+					variable_instance_set(inst, "sprite", sprite);
+				}
+
+				break;
 			default:
 				continue;
 		}

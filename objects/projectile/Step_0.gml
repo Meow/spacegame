@@ -4,7 +4,7 @@ if created_at + (lifetime * 1000) < current_time ||
 	instance_destroy();
 }
 
-var target = collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, enemy, false, true);
+var target = collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, all, false, true);
 
 if target != noone &&
    variable_instance_get(target, "hp") &&
@@ -22,6 +22,10 @@ if target != noone &&
 
 		if variable_instance_get(target, "hp") <= 0
 			add_score *= 10;
+
+		if variable_instance_exists(target, "strong") &&
+		   variable_instance_get(target, "strong") == true
+			add_score *= 2;
 
 		score += add_score;
 	}

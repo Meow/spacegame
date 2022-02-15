@@ -35,9 +35,9 @@ layer_scroll_elements(next_chunk);
 layer_scroll_elements(layer_get_id("FX"));
 
 layer_scroll_elements(b_fill_layer);
-layer_scroll_elements(b_far_layer, 2);
-layer_scroll_elements(b_mid_layer, 3);
-layer_scroll_elements(b_near_layer, 4);
+layer_scroll_elements(b_far_layer, 1.1);
+layer_scroll_elements(b_mid_layer, 1.25);
+layer_scroll_elements(b_near_layer, 1.5);
 layer_scroll_elements(b_fore_layer);
 
 // Increment chunk positions.

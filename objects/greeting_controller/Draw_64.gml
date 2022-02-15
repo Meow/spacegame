@@ -12,14 +12,16 @@ var padding_small = padding_normal * 0.5;
 var padding_large = padding_normal * 2;
 var scaling = (padding_normal / 128);
 
+var offset = cos(current_time / 400);
+
 draw_set_font(gameover_font);
 draw_text_transformed_color(
 	padding_normal,
-	padding_small,
+	padding_small + 23 * offset,
 	"SPACE CHAOS",
 	3.25 * scaling,
 	3.25 * scaling,
-	1,
+	4 * offset,
 	c_white,
 	c1,
 	c2,

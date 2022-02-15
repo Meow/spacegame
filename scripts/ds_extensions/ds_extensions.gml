@@ -14,3 +14,12 @@ function ds_list_each(o, cb) {
 		cb(ds_list_find_value(o, i));
 	}
 }
+
+function ds_map_find_value_or(struct, key, def) {
+	var res = ds_map_find_value(struct, key);
+
+	if is_undefined(res)
+		return def;
+
+	return res;
+}
