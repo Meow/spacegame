@@ -49,11 +49,11 @@
       }
     ]
   },
-  "objects": [
+  "objects": [ //Shrimps bei 6
     {
-      "object": "enemy_shark",
-      "x": 12,
-      "y": 6,
+      "object": "enemy_shrimp",
+      "x": 22,
+      "y": 5,
       "properties": [
         {
           "key": "movetype",
@@ -62,96 +62,240 @@
       ]
     },
     {
-      "object": "enemy_shark",
-      "x": 24,
-      "y": 6,
+      "object": "enemy_shrimp",
+      "x": 28,
+      "y": 4,
       "properties": [
         {
           "key": "movetype",
-          "value": "static"
+          "value": "circle"
         }
       ]
     },
-    {
-      "object": "enemy_shark",
-      "x": 32,
-      "y": 6,
-      "properties": [
-        {
-          "key": "movetype",
-          "value": "static"
-        }
-      ]
-    },
-    {
-      "object": "enemy_shark",
-      "x": 38,
-      "y": 6,
-      "properties": [
-        {
-          "key": "movetype",
-          "value": "static"
-        }
-      ]
-    },
-    {
-      "object": "enemy_shark",
-      "x": 38,
-      "y": 7,
-      "properties": [
-        {
-          "key": "movetype",
-          "value": "static"
-        }
-      ]
-    },
-    {
-      "object": "enemy_shark",
-      "x": 38,
+      {
+      "object": "enemy_shrimp",
+      "x": 29,
       "y": 8,
       "properties": [
         {
           "key": "movetype",
-          "value": "static"
+          "value": "circle"
         }
       ]
     },
     {
-      "object": "enemy_shark",
+      "object": "enemy_shrimp",
+      "x": 34,
+      "y": 3,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "circle"
+        }
+      ]
+    },
+      {
+      "object": "enemy_shrimp",
+      "x": 34,
+      "y": 6,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "circle"
+        }
+      ]
+    },
+      {
+      "object": "enemy_shrimp",
+      "x": 34,
+      "y": 12,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "circle"
+        }
+      ]
+    },
+      {
+      "object": "enemy_shrimp",
+      "x": 40,
+      "y": 3,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "circle"
+        }
+      ]
+    },
+      {
+      "object": "enemy_shrimp",
+      "x": 40,
+      "y": 7,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "circle"
+        }
+      ]
+    },
+      {
+      "object": "enemy_shrimp",
+      "x": 41,
+      "y": 5,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "circle"
+        }
+      ]
+    },
+      {
+      "object": "enemy_shrimp",
+      "x": 41,
+      "y": 9,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "circle"
+        }
+      ]
+    },
+      {
+      "object": "enemy_shrimp",
+      "x": 48,
+      "y": 1,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "circle"
+        }
+      ]
+    },
+      {
+      "object": "enemy_shrimp",
+      "x": 48,
+      "y": 3,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "circle"
+        }
+      ]
+    },
+      {
+      "object": "enemy_shrimp",
+      "x": 48,
+      "y": 5,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "circle"
+        }
+      ]
+    },
+      {
+      "object": "enemy_shrimp",
       "x": 50,
       "y": 6,
       "properties": [
         {
           "key": "movetype",
-          "value": "static"
+          "value": "circle"
         }
       ]
     },
-    {
-      "object": "enemy_shark",
-      "x": 50,
-      "y": 7,
-      "properties": [
-        {
-          "key": "movetype",
-          "value": "static"
-        }
-      ]
-    },
-    {
-      "object": "enemy_shark",
+      {
+      "object": "enemy_shrimp",
       "x": 50,
       "y": 8,
       "properties": [
         {
           "key": "movetype",
-          "value": "static"
+          "value": "circle"
         }
       ]
     },
+      {
+      "object": "enemy_shrimp",
+      "x": 50,
+      "y": 10,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "circle"
+        }
+      ]
+    },
+      {
+      "object": "enemy_shrimp",
+      "x": 52,
+      "y": 1,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "circle"
+        }
+      ]
+    },
+      {
+      "object": "enemy_shrimp",
+      "x": 52,
+      "y": 3,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "circle"
+        }
+      ]
+    },
+      {
+      "object": "enemy_shrimp",
+      "x": 52,
+      "y": 5,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "circle"
+        }
+      ]
+    },
+      {
+      "object": "enemy_shrimp",
+      "x": 54,
+      "y": 6,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "circle"
+        }
+      ]
+    },
+      {
+      "object": "enemy_shrimp",
+      "x": 54,
+      "y": 8,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "circle"
+        }
+      ]
+    },
+      {
+      "object": "enemy_shrimp",
+      "x": 54,
+      "y": 10,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "circle"
+        }
+      ]
+    },
+      
     {
       "object": "pickup",
-      "x": 12,
+      "x": 1,
       "y": 2,
       "properties": [
         {
