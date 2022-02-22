@@ -2,6 +2,7 @@
 if created_at + (lifetime * 1000) < current_time ||
    x > 280 {
 	instance_destroy();
+	return;
 }
 
 var target = collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, all, false, true);
