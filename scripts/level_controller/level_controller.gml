@@ -3,40 +3,27 @@ function make_chunks(level_data) {
 	var chunks = ds_list_create();
 	var objects = ds_map_find_value(level_data, "objects");
 	var top_chunk = 0;
+	var object_count = ds_list_size(objects);
+
+	// First, determine top chunk.
+	for (var i = 0; i < object_count; i++) {
+		var chunk_id = floor(ds_map_find_value(ds_list_find_value(objects, i), "x") / 16);
+		top_chunk = chunk_id > top_chunk ? chunk_id : top_chunk;
+	}
+
+	// Then, fill chunks with empty lists.
+	for (var i = 0; i <= top_chunk; i++) {
+		ds_list_set(chunks, i, ds_list_create());
+	}
 
 	// Copy objects to chunks.
 	for (var i = 0; i < ds_list_size(objects); i++) {
 		var obj = ds_list_find_value(objects, i);
 		var chunk_id = floor(ds_map_find_value(obj, "x") / 16);
-
-		show_debug_message("inserting object into list");
-		show_debug_message("chunk_id: " + string(chunk_id));
-
-		top_chunk = chunk_id > top_chunk ? chunk_id : top_chunk;
-
 		var chunk_value = ds_list_find_value(chunks, chunk_id);
 
-		if is_undefined(chunk_value)
-			chunk_value = ds_list_create();
-
 		ds_list_add(chunk_value, obj);
-
-		if is_undefined(ds_list_find_value(chunks, chunk_id))
-			ds_list_insert(chunks, chunk_id, chunk_value);
-		else
-			ds_list_replace(chunks, chunk_id, chunk_value);
-
-		ds_list_mark_as_list(chunks, chunk_id);
-	}
-
-	// Ensure all chunks are a valid list.
-	for (var i = 0; i <= top_chunk; i++) {
-		if !ds_list_is_list(chunks, i) {
-			ds_list_set(chunks, i, ds_list_create());
-			show_debug_message("no chunk data, making empty list");
-		}
-
-		show_debug_message("chunk " + string(i) + " has " + string(ds_list_size(ds_list_find_value(chunks, i))) + " objects defined");
+		ds_list_replace(chunks, chunk_id, chunk_value);
 	}
 
 	return chunks;
