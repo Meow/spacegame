@@ -49,7 +49,7 @@
       }
     ]
   },
-  "objects": [ //Shrimps bei 6
+  "objects": [ 
     {
       "object": "enemy_shrimp",
       "x": 22,
