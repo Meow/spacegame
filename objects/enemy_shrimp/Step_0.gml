@@ -13,8 +13,13 @@ image_blend = make_color_hsv(255, diff, 255);
 // Movement
 //
 
-y = original_y + move_magnitude * sin(current_time / move_rate);
-x -= move_speed;
+if x > 256 {
+	x = original_x;
+	y = original_y;
+} else {
+	y = original_y + move_magnitude * sin(current_time / move_rate);
+	x -= move_speed;
+}
 
 if  x < -32
 	instance_destroy();
