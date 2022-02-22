@@ -25,12 +25,14 @@ function make_chunks(level_data) {
 			ds_list_insert(chunks, chunk_id, chunk_value);
 		else
 			ds_list_replace(chunks, chunk_id, chunk_value);
+
+		ds_list_mark_as_list(chunks, chunk_id);
 	}
 
 	// Ensure all chunks are a valid list.
 	for (var i = 0; i <= top_chunk; i++) {
 		if !ds_list_is_list(chunks, i) {
-			// ds_list_set(chunks, i, ds_list_create());
+			ds_list_set(chunks, i, ds_list_create());
 			show_debug_message("no chunk data, making empty list");
 		}
 
