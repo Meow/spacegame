@@ -1,7 +1,5 @@
 /// @description Initialize level.
 
-skip_step = 0;
-current_speed = level_speed;
 current_chunk = 0;
 
 // Populate chunk data with garbage.
