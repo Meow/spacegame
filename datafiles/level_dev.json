@@ -34,7 +34,7 @@
       {
         "sprite": "background_obj_far_sprite",
         "mode": "random",
-        "max": 4,
+        "max": 0,
         "min_y": 0,
         "max_y": 8
       }
@@ -43,7 +43,7 @@
       {
         "sprite": "background_obj_mid_sprite",
         "mode": "random",
-        "max": 2,
+        "max": 0,
         "min_y": 4,
         "overlap": false
       }
