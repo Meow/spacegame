@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "dev",
-    "path": "folders/Sprites/dev.yy",
+    "name": "enemies",
+    "path": "folders/Sprites/enemies.yy",
   },
   "resourceVersion": "1.0",
   "name": "enemy_attack_sprite",

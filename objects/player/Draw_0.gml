@@ -25,7 +25,7 @@ if hp > 0 {
 	var inv_frames_ms = invincibility_frames * 1000;
 	var diff = max(0, (last_damage_at + inv_frames_ms - current_time) / inv_frames_ms * 255);
 
-	draw_sprite_ext(egg, main_sprite_idx, x, y, 1, 1, 0, make_color_hsv(255, diff, 255), target_alpha);
+	draw_sprite_ext(egg_sprite, main_sprite_idx, x, y, 1, 1, 0, make_color_hsv(255, diff, 255), target_alpha);
 }
 
 // Shields. Base index begins at 3.
@@ -35,8 +35,8 @@ if hp > 0 {
 // 4 = shield damaged (2 hits left)
 // 5 = shield badly damaged (1 hit left)
 if ap > 0 {
-	var shield_sprite_idx = min(2 - floor(ap / 32), 1);
-	draw_sprite(egg, shield_sprite_idx, x, y);
+	var shield_sprite_idx = min(1 - floor(ap / 30), 1);
+	draw_sprite(egg_sprite, shield_sprite_idx, x, y);
 }
 
 draw_set_alpha(1.0);

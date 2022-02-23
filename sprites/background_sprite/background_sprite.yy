@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "dev",
-    "path": "folders/Sprites/dev.yy",
+    "name": "technical",
+    "path": "folders/Sprites/technical.yy",
   },
   "resourceVersion": "1.0",
   "name": "background_sprite",

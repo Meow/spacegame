@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "dev",
-    "path": "folders/Sprites/dev.yy",
+    "name": "background",
+    "path": "folders/Sprites/background.yy",
   },
   "resourceVersion": "1.0",
   "name": "background_far_sprite",

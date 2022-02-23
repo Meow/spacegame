@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spaceship_sprite",
-    "path": "sprites/spaceship_sprite/spaceship_sprite.yy",
+    "name": "player_hitbox_sprite",
+    "path": "sprites/player_hitbox_sprite/player_hitbox_sprite.yy",
   },
   "solid": false,
   "visible": true,

@@ -4,11 +4,11 @@ function weapon_controller_fire_projectile(ply, current_weapon, current_weapon_l
 			case "plasma":
 				switch current_weapon_level {
 					case 1:
-						spawn_plasma_projectile(ply);
+						spawn_plasma_projectile(ply, sprite_height * 0.25);
 						break;
 					case 2:
-						spawn_plasma_projectile(ply, -8);
-						spawn_plasma_projectile(ply, 8);
+						spawn_plasma_projectile(ply);
+						spawn_plasma_projectile(ply, sprite_height * 0.5);
 						break;
 					case 3:
 						var bullet = spawn_plasma_projectile(ply);
@@ -20,9 +20,9 @@ function weapon_controller_fire_projectile(ply, current_weapon, current_weapon_l
 						}
 						break;
 					case 4:
-						var smol1 = spawn_plasma_projectile(ply, -8);
-						var big = spawn_plasma_projectile(ply, 0);
-						var smol2 = spawn_plasma_projectile(ply, 16);
+						var smol1 = spawn_plasma_projectile(ply);
+						var big = spawn_plasma_projectile(ply, sprite_height * 0.25);
+						var smol2 = spawn_plasma_projectile(ply, sprite_height * 0.75);
 						with smol1 {
 							image_xscale = 0.75;
 							image_yscale = 0.75;
@@ -39,7 +39,7 @@ function weapon_controller_fire_projectile(ply, current_weapon, current_weapon_l
 						}
 						break;
 					case 5:
-						var bullet = spawn_plasma_projectile(ply);
+						var bullet = spawn_plasma_projectile(ply, sprite_height * 0.25);
 						with bullet {
 							damage = 150;
 							image_xscale = 3;

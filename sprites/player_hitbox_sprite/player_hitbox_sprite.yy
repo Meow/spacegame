@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 47,
+  "bbox_right": 31,
   "bbox_top": 0,
-  "bbox_bottom": 15,
+  "bbox_bottom": 31,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 48,
-  "height": 16,
+  "width": 32,
+  "height": 32,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"2bf7f456-475f-4a93-9d5f-fe76b6f1d686","path":"sprites/shark_hitbox_sprite/shark_hitbox_sprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2bf7f456-475f-4a93-9d5f-fe76b6f1d686","path":"sprites/shark_hitbox_sprite/shark_hitbox_sprite.yy",},"LayerId":{"name":"b6808279-f890-459a-8c74-8cac09922e6f","path":"sprites/shark_hitbox_sprite/shark_hitbox_sprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"shark_hitbox_sprite","path":"sprites/shark_hitbox_sprite/shark_hitbox_sprite.yy",},"resourceVersion":"1.0","name":"2bf7f456-475f-4a93-9d5f-fe76b6f1d686","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"32315b3b-3a6a-49e2-9bc7-ac927f303378","path":"sprites/player_hitbox_sprite/player_hitbox_sprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"32315b3b-3a6a-49e2-9bc7-ac927f303378","path":"sprites/player_hitbox_sprite/player_hitbox_sprite.yy",},"LayerId":{"name":"c98c40b7-c065-44d5-8f5c-da43e11b7c23","path":"sprites/player_hitbox_sprite/player_hitbox_sprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"player_hitbox_sprite","path":"sprites/player_hitbox_sprite/player_hitbox_sprite.yy",},"resourceVersion":"1.0","name":"32315b3b-3a6a-49e2-9bc7-ac927f303378","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"shark_hitbox_sprite","path":"sprites/shark_hitbox_sprite/shark_hitbox_sprite.yy",},
+    "spriteId": {"name":"player_hitbox_sprite","path":"sprites/player_hitbox_sprite/player_hitbox_sprite.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"9b96c351-acde-4337-8c5b-825827d3048d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2bf7f456-475f-4a93-9d5f-fe76b6f1d686","path":"sprites/shark_hitbox_sprite/shark_hitbox_sprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"254f806c-ab12-4dd7-8f28-5db61175f71e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"32315b3b-3a6a-49e2-9bc7-ac927f303378","path":"sprites/player_hitbox_sprite/player_hitbox_sprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"shark_hitbox_sprite","path":"sprites/shark_hitbox_sprite/shark_hitbox_sprite.yy",},
+    "parent": {"name":"player_hitbox_sprite","path":"sprites/player_hitbox_sprite/player_hitbox_sprite.yy",},
     "resourceVersion": "1.3",
-    "name": "shark_hitbox_sprite",
+    "name": "player_hitbox_sprite",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b6808279-f890-459a-8c74-8cac09922e6f","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c98c40b7-c065-44d5-8f5c-da43e11b7c23","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/hitboxes.yy",
   },
   "resourceVersion": "1.0",
-  "name": "shark_hitbox_sprite",
+  "name": "player_hitbox_sprite",
   "tags": [],
   "resourceType": "GMSprite",
 }

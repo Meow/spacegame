@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "dev",
-    "path": "folders/Sprites/dev.yy",
+    "name": "hitboxes",
+    "path": "folders/Sprites/hitboxes.yy",
   },
   "resourceVersion": "1.0",
   "name": "squid_hitbox_sprite",
