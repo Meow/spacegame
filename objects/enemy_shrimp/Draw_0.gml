@@ -1,2 +1,9 @@
 /// @description draw sprite
-draw_sprite_stretched(shrimp_dev_sprite, 0, x, y, sprite_width, sprite_height);
+if(strong == false)
+{
+	draw_sprite_stretched(l01_g02_v01_sprite, 0, (x - 0.5 * sprite_width), (y - 0.5* sprite_height), sprite_width*2, sprite_height*2);
+}
+else
+{
+	draw_sprite_stretched(l01_g02_v01_sprite, 0, (x - 0.5 * sprite_width), (y - 0.5* sprite_height), sprite_width*2, sprite_height*2);
+}

@@ -1,6 +1,6 @@
 {
   "details": {
-    "length": 32,
+    "length": 148,
     "speed": 1,
     "speed_increase_factor": 0,
     "boss": false
@@ -52,7 +52,7 @@
   "objects": [
     {
       "object": "enemy_shrimp",
-      "x": 22,
+      "x": 18,
       "y": 5,
       "properties": [
         {
@@ -111,7 +111,7 @@
       "y": 12,
       "properties": [
         {
-          "key": "movetype",
+    "key": "movetype",
           "value": "circle"
         }
       ]
@@ -182,17 +182,7 @@
         }
       ]
     },
-    {
-      "object": "enemy_shrimp",
-      "x": 48,
-      "y": 5,
-      "properties": [
-        {
-          "key": "movetype",
-          "value": "circle"
-        }
-      ]
-    },
+    
     {
       "object": "enemy_shrimp",
       "x": 50,
@@ -215,17 +205,7 @@
         }
       ]
     },
-    {
-      "object": "enemy_shrimp",
-      "x": 50,
-      "y": 10,
-      "properties": [
-        {
-          "key": "movetype",
-          "value": "circle"
-        }
-      ]
-    },
+    
     {
       "object": "enemy_shrimp",
       "x": 52,
@@ -248,17 +228,7 @@
         }
       ]
     },
-    {
-      "object": "enemy_shrimp",
-      "x": 52,
-      "y": 5,
-      "properties": [
-        {
-          "key": "movetype",
-          "value": "circle"
-        }
-      ]
-    },
+    
     {
       "object": "enemy_shrimp",
       "x": 54,
@@ -281,11 +251,14 @@
         },
         {
           "key": "move_speed",
-          "value": 3
+          "value": 3000
         }
       ]
     },
-    {
+    
+      ]
+    },
+          {
       "object": "enemy_shrimp",
       "x": 54,
       "y": 10,
@@ -296,6 +269,316 @@
         }
       ]
     },
+        {
+      "object": "enemy_shrimp",
+      "x": 54,
+      "y": 10,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "circle"
+        }
+      ]
+    },
+    {
+      "object": "enemy_squid",
+      "x": 64,
+      "y": 10,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "circle"
+        }
+      ]
+    },
+{
+      "object": "enemy_squid",
+      "x": 70,
+      "y": 4,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "circle"
+        }
+      ]
+    },
+{
+      "object": "enemy_squid",
+      "x": 70,
+      "y": 8,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "circle"
+        }
+      ]
+    },
+{
+      "object": "enemy_squid",
+      "x": 76,
+      "y": 3,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "circle"
+        }
+      ]
+    },
+{
+      "object": "enemy_squid",
+      "x": 76,
+      "y": 7,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "circle"
+        }
+      ]
+    },
+    {
+      "object": "enemy_squid",
+      "x": 80,
+      "y": 3,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "circle"
+        }
+      ]
+    },
+    {
+      "object": "enemy_squid",
+      "x": 83,
+      "y": 6,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "circle"
+        }
+      ]
+    },
+    {
+      "object": "enemy_squid",
+      "x": 86,
+      "y": 9,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "circle"
+        }
+      ]
+    },
+    {
+      "object": "enemy_squid",
+      "x": 90,
+      "y": 5,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "circle"
+        }
+      ]
+    },
+{
+      "object": "enemy_squid",
+      "x": 90,
+      "y": 11,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "circle"
+        }
+      ]
+    },
+    {
+      "object": "enemy_squid",
+      "x": 95,
+      "y": 3,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "circle"
+        }
+      ]
+    },
+    {
+      "object": "enemy_squid",
+      "x": 95,
+      "y": 9,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "circle"
+        }
+      ]
+    },
+    {
+      "object": "enemy_squid",
+      "x": 97,
+      "y": 5,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "circle"
+        }
+      ]
+    },
+{
+      "object": "enemy_squid",
+      "x": 97,
+      "y": 11,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "circle"
+        }
+      ]
+    },
+    {
+      "object": "enemy_shark",
+      "x": 106,
+      "y": 5,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "circle"
+        }
+      ]
+    },
+    {
+      "object": "enemy_shark",
+      "x": 110,
+      "y": 3,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "circle"
+        }
+      ]
+    },
+    {
+      "object": "enemy_shark",
+      "x": 110,
+      "y": 7,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "circle"
+        }
+      ]
+    },
+    {
+      "object": "enemy_shark",
+      "x": 128,
+      "y": 0,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "circle"
+        }
+      ]
+    },
+    {
+      "object": "enemy_shark",
+      "x": 128,
+      "y": 2,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "circle"
+        }
+      ]
+    },
+    {
+      "object": "enemy_shark",
+      "x": 128,
+      "y": 4,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "circle"
+        }
+      ]
+    },
+    {
+      "object": "enemy_shark",
+      "x": 128,
+      "y": 8,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "circle"
+        }
+      ]
+    },
+    {
+      "object": "enemy_shark",
+      "x": 128,
+      "y": 10,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "circle"
+        }
+      ]
+    },
+    {
+      "object": "enemy_shark",
+      "x": 129,
+      "y": 1,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "circle"
+        }
+      ]
+    },
+    {
+      "object": "enemy_shark",
+      "x": 129,
+      "y": 3,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "circle"
+        }
+      ]
+    },
+    {
+      "object": "enemy_shark",
+      "x": 129,
+      "y": 5,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "circle"
+        }
+      ]
+    },
+    {
+      "object": "enemy_shark",
+      "x": 129,
+      "y": 9,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "circle"
+        }
+      ]
+    },
+    {
+      "object": "enemy_shark",
+      "x": 129,
+      "y": 11,
+      "properties": [
+        {
+          "key": "movetype",
+          "value": "circle"
+        }
+      ]
+    },
+
+
 
     {
       "object": "pickup",

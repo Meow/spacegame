@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"projectile","path":"objects/projectile/projectile.yy",},"order":2,},
+    {"id":{"name":"l01_g03_v01_sprite","path":"sprites/l01_g03_v01_sprite/l01_g03_v01_sprite.yy",},"order":28,},
     {"id":{"name":"gameover","path":"rooms/gameover/gameover.yy",},"order":1,},
     {"id":{"name":"rocket_sprite","path":"sprites/rocket_sprite/rocket_sprite.yy",},"order":4,},
     {"id":{"name":"explosion_sprite","path":"sprites/explosion_sprite/explosion_sprite.yy",},"order":3,},
@@ -13,6 +14,7 @@
     {"id":{"name":"obstacle_1x1_sprite","path":"sprites/obstacle_1x1_sprite/obstacle_1x1_sprite.yy",},"order":10,},
     {"id":{"name":"projectile_sprite","path":"sprites/projectile_sprite/projectile_sprite.yy",},"order":1,},
     {"id":{"name":"background_tile","path":"objects/background_tile/background_tile.yy",},"order":0,},
+    {"id":{"name":"egg","path":"sprites/egg/egg.yy",},"order":27,},
     {"id":{"name":"text_render","path":"objects/text_render/text_render.yy",},"order":9,},
     {"id":{"name":"squid_dev_sprite","path":"sprites/squid_dev_sprite/squid_dev_sprite.yy",},"order":20,},
     {"id":{"name":"gamepad_controller","path":"scripts/gamepad_controller/gamepad_controller.yy",},"order":8,},
@@ -27,6 +29,7 @@
     {"id":{"name":"background_obj_mid_sprite","path":"sprites/background_obj_mid_sprite/background_obj_mid_sprite.yy",},"order":12,},
     {"id":{"name":"enemy_attack_sprite","path":"sprites/enemy_attack_sprite/enemy_attack_sprite.yy",},"order":18,},
     {"id":{"name":"enemy_squid","path":"objects/enemy_squid/enemy_squid.yy",},"order":15,},
+    {"id":{"name":"l01_g02_v01_sprite","path":"sprites/l01_g02_v01_sprite/l01_g02_v01_sprite.yy",},"order":26,},
     {"id":{"name":"enemy_sprite","path":"sprites/enemy_sprite/enemy_sprite.yy",},"order":0,},
     {"id":{"name":"background_far_sprite","path":"sprites/background_far_sprite/background_far_sprite.yy",},"order":13,},
     {"id":{"name":"plasma_sprite","path":"sprites/plasma_sprite/plasma_sprite.yy",},"order":6,},
