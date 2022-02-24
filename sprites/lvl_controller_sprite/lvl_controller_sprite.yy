@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"lvl_controller_sprite","path":"sprites/lvl_controller_sprite/lvl_controller_sprite.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "lvl_controller_sprite",
     "tags": [],
     "resourceType": "GMSequence",

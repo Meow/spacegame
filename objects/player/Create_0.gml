@@ -5,3 +5,5 @@ died_at = 0;
 current_realm = "ingame";
 next_special = 0;
 dodge_end = 0;
+velocity_x = 0;
+velocity_y = 0;

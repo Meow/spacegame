@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"shrimp_dev_sprite","path":"sprites/shrimp_dev_sprite/shrimp_dev_sprite.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "shrimp_dev_sprite",
     "tags": [],
     "resourceType": "GMSequence",

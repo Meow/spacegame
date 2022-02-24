@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"laser_sprite","path":"sprites/laser_sprite/laser_sprite.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "laser_sprite",
     "tags": [],
     "resourceType": "GMSequence",

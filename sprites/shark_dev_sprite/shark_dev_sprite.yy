@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"shark_dev_sprite","path":"sprites/shark_dev_sprite/shark_dev_sprite.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "shark_dev_sprite",
     "tags": [],
     "resourceType": "GMSequence",

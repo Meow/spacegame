@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"shrimp_hitbox_sprite","path":"sprites/shrimp_hitbox_sprite/shrimp_hitbox_sprite.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "shrimp_hitbox_sprite",
     "tags": [],
     "resourceType": "GMSequence",

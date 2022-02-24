@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"rocket_sprite","path":"sprites/rocket_sprite/rocket_sprite.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "rocket_sprite",
     "tags": [],
     "resourceType": "GMSequence",

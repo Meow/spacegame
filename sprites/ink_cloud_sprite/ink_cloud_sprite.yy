@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"ink_cloud_sprite","path":"sprites/ink_cloud_sprite/ink_cloud_sprite.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "ink_cloud_sprite",
     "tags": [],
     "resourceType": "GMSequence",

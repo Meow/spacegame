@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"background_obj_mid_sprite","path":"sprites/background_obj_mid_sprite/background_obj_mid_sprite.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "background_obj_mid_sprite",
     "tags": [],
     "resourceType": "GMSequence",

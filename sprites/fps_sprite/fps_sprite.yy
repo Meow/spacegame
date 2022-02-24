@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"fps_sprite","path":"sprites/fps_sprite/fps_sprite.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "fps_sprite",
     "tags": [],
     "resourceType": "GMSequence",

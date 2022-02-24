@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"squid_hitbox_sprite","path":"sprites/squid_hitbox_sprite/squid_hitbox_sprite.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "squid_hitbox_sprite",
     "tags": [],
     "resourceType": "GMSequence",

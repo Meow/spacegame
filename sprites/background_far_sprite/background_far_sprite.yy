@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"background_far_sprite","path":"sprites/background_far_sprite/background_far_sprite.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "background_far_sprite",
     "tags": [],
     "resourceType": "GMSequence",

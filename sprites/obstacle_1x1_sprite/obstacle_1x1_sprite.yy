@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"obstacle_1x1_sprite","path":"sprites/obstacle_1x1_sprite/obstacle_1x1_sprite.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "obstacle_1x1_sprite",
     "tags": [],
     "resourceType": "GMSequence",

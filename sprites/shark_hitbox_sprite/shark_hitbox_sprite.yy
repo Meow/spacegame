@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"shark_hitbox_sprite","path":"sprites/shark_hitbox_sprite/shark_hitbox_sprite.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "shark_hitbox_sprite",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"squid_dev_sprite","path":"sprites/squid_dev_sprite/squid_dev_sprite.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "squid_dev_sprite",
     "tags": [],
     "resourceType": "GMSequence",

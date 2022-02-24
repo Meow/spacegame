@@ -51,7 +51,17 @@ function calc_movement(ply) {
 					add_y = movespeed;
 			}
 		}
+
+		if add_x != 0
+			velocity_x = clamp(velocity_x + add_x * 0.1, -movespeed, movespeed);
+		else
+			velocity_x *= 0.75;
+
+		if add_y != 0
+			velocity_y = clamp(velocity_y + add_y * 0.1, -movespeed, movespeed);
+		else
+			velocity_y *= 0.75;
 	}
 
-	return [add_x, add_y];
+	return [velocity_x, velocity_y];
 }
