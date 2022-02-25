@@ -26,7 +26,7 @@ if x < 256 {
 	if move_direction
 		y = min(192 - sprite_height, y + 1);
 	else
-		y = max(0, y - 3);
+		y = max(0, y - 2);
 
 	if y == 0
 		move_direction = true;

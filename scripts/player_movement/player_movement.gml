@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 
-function calc_movement(ply) {
+function calc_movement(ply, no_velocity) {
 	var add_x = 0;
 	var add_y = 0;
 
@@ -63,5 +63,8 @@ function calc_movement(ply) {
 			velocity_y *= 0.75;
 	}
 
-	return [velocity_x, velocity_y];
+	if no_velocity != true
+		return [velocity_x, velocity_y];
+	else
+		return [add_x, add_y];
 }

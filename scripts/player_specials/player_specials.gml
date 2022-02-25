@@ -6,7 +6,7 @@ function perform_special(ply) {
 
 		switch current_special {
 			case "dodge":
-				var movement = calc_movement(ply);
+				var movement = calc_movement(ply, true);
 
 				if movement[0] == 0 && movement[1] == 0
 					return;
@@ -31,5 +31,7 @@ function perform_dodge_special(ply, movement) {
 
 	with ply {
 		dodge_end = current_time + 400;
+		velocity_x = 0;
+		velocity_y = 0;
 	}
 }
