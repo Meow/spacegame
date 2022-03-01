@@ -16,7 +16,7 @@ layer_set_visible(next_chunk, true);
 this_chunk_pos = 0;
 next_chunk_pos = 256;
 
-level_data = file_read_json("level_dev.json");
+level_data = file_read_json(level_filename + ".json");
 
 if level_data == undefined {
 	show_message("ERROR: Cannot load level data! Your JSON data may be malformed.");

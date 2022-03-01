@@ -23,3 +23,5 @@ draw_circle(x, middle, max(laser_size, 6 + circle_delta), false);
 
 if target_x != room_width
 	draw_circle(target_x, middle, max(laser_size, laser_size + circle_delta * 1.25), false);
+
+draw_set_alpha(1.0);

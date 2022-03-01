@@ -574,51 +574,6 @@
           "value": "circle"
         }
       ]
-    },
-
-    {
-      "object": "pickup",
-      "x": 1,
-      "y": 2,
-      "properties": [
-        {
-          "key": "item",
-          "value": "laser"
-        }
-      ]
-    },
-    {
-      "object": "pickup",
-      "x": 12,
-      "y": 3,
-      "properties": [
-        {
-          "key": "item",
-          "value": "laser"
-        }
-      ]
-    },
-    {
-      "object": "pickup",
-      "x": 44,
-      "y": 2,
-      "properties": [
-        {
-          "key": "item",
-          "value": "laser"
-        }
-      ]
-    },
-    {
-      "object": "pickup",
-      "x": 47,
-      "y": 2,
-      "properties": [
-        {
-          "key": "item",
-          "value": "laser"
-        }
-      ]
     }
   ]
 }

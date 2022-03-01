@@ -15,5 +15,10 @@ if target != noone {
 	instance_destroy();
 }
 
-x = original_x;
-y = original_y;
+if !should_drop {
+	x = original_x;
+	y = original_y;
+} else {
+	y += speed;
+	x -= speed * 2;
+}

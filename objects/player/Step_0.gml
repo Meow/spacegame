@@ -6,7 +6,7 @@
 
 is_moving = false;
 
-var movement = calc_movement(self);
+var movement = calc_movement(self, undefined);
 
 if can_move {
 	x = max(x - bbox_left, x + movement[0]);
