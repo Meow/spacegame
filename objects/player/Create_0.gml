@@ -7,3 +7,4 @@ next_special = 0;
 dodge_end = 0;
 velocity_x = 0;
 velocity_y = 0;
+firing_laser = false;

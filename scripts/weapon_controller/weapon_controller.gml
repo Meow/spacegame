@@ -56,9 +56,26 @@ function weapon_controller_fire_projectile(ply, current_weapon, current_weapon_l
 		}
 	}
 }
+
 function spawn_plasma_projectile(ply, offset_y = 0) {
 	with ply
 		var bullet = instance_create_layer(bbox_right + 2, y + offset_y, "Instances", projectile);
 		variable_instance_set(bullet, "inflictor", ply);
 		return bullet;
+}
+
+function weapon_controller_fire_laser(ply, current_weapon_level, released) {
+	with ply {
+		if !released {
+			if firing_laser
+				return;
+
+			var laser = instance_create_layer(bbox_right + 2, y + sprite_height * 0.5, "Instances", laser_projectile);
+			variable_instance_set(laser, "inflictor", ply);
+
+			firing_laser = true;
+		} else {
+			firing_laser = false;
+		}
+	}
 }

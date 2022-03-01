@@ -31,10 +31,15 @@ if (gamepad_is_connected(gamepad_id) &&
 	keyboard_check(vk_space) ||
 	keyboard_check(vk_enter) {
 		if current_time > next_shot {
-			weapon_controller_fire_projectile(self, current_weapon, current_weapon_level);
+			if current_weapon != "laser"
+				weapon_controller_fire_projectile(self, current_weapon, current_weapon_level);
+			else
+				weapon_controller_fire_laser(self, current_weapon_level, false);
+
 			next_shot = current_time + (shot_cooldown * 1000);
 		}
-}
+} else if firing_laser
+	weapon_controller_fire_laser(self, current_weapon_level, true);
 
 //
 // Specials

@@ -53,7 +53,7 @@ if keyboard_check(vk_enter) ||
    keyboard_check(vk_shift) {
 	global.lang = global.valid_languages[current_language];
 	global.lang_strings = file_read_json("language_" + global.lang + ".json");
-	room_goto(dev);
+	room_goto(controls);
 }
 
 if any_input
