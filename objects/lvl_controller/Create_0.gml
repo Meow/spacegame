@@ -2,7 +2,7 @@
 
 audio_stop_all();
 audio_master_gain(global.sound_volume);
-audio_play_sound(placeholder_song, 1, true);
+audio_play_sound(flow_song, 1, true);
 
 current_chunk = 0;
 

@@ -1,5 +1,8 @@
 /// @description Controls logic
 
+if died_at != 0
+	return;
+
 //
 // Movement code
 //

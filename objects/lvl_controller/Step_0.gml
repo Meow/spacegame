@@ -18,7 +18,6 @@ if this_chunk_pos <= -256 {
 	layer_destroy_instances(this_chunk);
 	layer_move(next_chunk, this_chunk);
 	chunk_to_layer(next_chunk, level_chunks, current_chunk + 1);
-	populate_background_layers(level_data, 256);
 	gc_background();
 }
 

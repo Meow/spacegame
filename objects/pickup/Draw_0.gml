@@ -9,6 +9,9 @@ switch item {
 	case "rocket":
 		draw_sprite(rocket_sprite, 0, x, y);
 		break;
+	case "health":
+		draw_sprite(pickup_health_sprite, current_anim_frame, x, y);
+		break;
 	default:
 		draw_sprite(item_sprite, 0, x, y);
 		break;

@@ -34,4 +34,8 @@ function perform_dodge_special(ply, movement) {
 		velocity_x = 0;
 		velocity_y = 0;
 	}
+
+	var snd = random_range(0, 1) == 1 ? dodge_1_sound : dodge_2_sound;
+
+	audio_play_sound(snd, 10, false);
 }

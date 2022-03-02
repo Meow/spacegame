@@ -21,31 +21,26 @@
   "background": {
     "fill": [
       {
-        "sprite": "background_far_sprite",
-        "mode": "fill",
-        "condition": {
-          "op": "lte",
-          "key": "x",
-          "value": 128
-        }
+        "sprite": "b_fill_layer_sprite",
+        "mode": "fill"
       }
     ],
     "far": [
       {
-        "sprite": "background_obj_far_sprite",
-        "mode": "random",
-        "max": 0,
-        "min_y": 0,
-        "max_y": 8
+        "sprite": "b_far_layer_sprite",
+        "mode": "fill"
       }
     ],
     "mid": [
       {
-        "sprite": "background_obj_mid_sprite",
-        "mode": "random",
-        "max": 0,
-        "min_y": 4,
-        "overlap": false
+        "sprite": "b_mid_layer_sprite",
+        "mode": "fill"
+      }
+    ],
+    "near": [
+      {
+        "sprite": "b_near_layer_sprite",
+        "mode": "fill"
       }
     ]
   },

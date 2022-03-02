@@ -1,10 +1,17 @@
 function ply_take_damage(ply, dmg) {
 	with ply {
 		if last_damage_at + (invincibility_frames * 1000) < current_time {
+			var original_ap = ap;
+
 			if ap > 0
 				ap = max(ap - dmg, 0);
 			else
 				hp = max(hp - dmg, 0);
+
+			if original_ap > 0 && ap <= 0
+				audio_play_sound(shield_break_with_alarm_sound, 10, false);
+			else
+				audio_play_sound(shield_break_sound, 10, false);
 
 			last_damage_at = current_time;
 
@@ -40,4 +47,6 @@ function ent_take_damage(target, dmg, inflictor) {
 
 		score += add_score;
 	}
+
+	audio_play_sound(hit_sound, 10, false);
 }

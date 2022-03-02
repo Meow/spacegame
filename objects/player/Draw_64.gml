@@ -1,5 +1,8 @@
 /// @description HUD HUD HUD.
 
+if died_at != 0
+	return;
+
 // Only draw certain HUD elements for player 1 object.
 if player_number == 0 {
 	draw_set_color(c_white);

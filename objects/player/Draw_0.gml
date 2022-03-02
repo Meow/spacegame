@@ -1,10 +1,13 @@
 /// @description Draw player and local FX.
 
+if died_at != 0
+	return;
+
 draw_set_alpha(1.0);
 
 // Movement FX.
 if is_moving
-	draw_sprite(flame_sprite, 0, x - 10, y + 9);
+	draw_sprite(flame_sprite, 0, x - 18, y);
 
 var target_alpha = 1.0;
 
@@ -25,7 +28,7 @@ if hp > 0 {
 	var inv_frames_ms = invincibility_frames * 1000;
 	var diff = max(0, (last_damage_at + inv_frames_ms - current_time) / inv_frames_ms * 255);
 
-	draw_sprite_ext(egg_sprite, main_sprite_idx, x, y, 1, 1, 0, make_color_hsv(255, diff, 255), target_alpha);
+	draw_sprite_ext(egg_sprite, main_sprite_idx, x - 8, y - 8, 1, 1, 0, make_color_hsv(255, diff, 255), target_alpha);
 }
 
 // Shields. Base index begins at 3.
@@ -36,7 +39,7 @@ if hp > 0 {
 // 5 = shield badly damaged (1 hit left)
 if ap > 0 {
 	var shield_sprite_idx = min(1 - floor(ap / 30), 1);
-	draw_sprite(egg_sprite, shield_sprite_idx, x, y);
+	draw_sprite(egg_sprite, shield_sprite_idx, x - 8, y - 8);
 }
 
 draw_set_alpha(1.0);
