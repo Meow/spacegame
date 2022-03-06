@@ -4,5 +4,13 @@
   "VOLUME:": "LAUTSTÄRKE:",
   "LANGUAGE:": "SPRACHE:",
   "PRESS [SHIFT] OR [ENTER] TO CONTINUE": "ZUM STARTEN [SHIFT] ODER [ENTER] DRÜCKEN",
-  "PRESS [START] TO CONTINUE": "ZUM STARTEN [START] DRÜCKEN"
+  "PRESS [START] TO CONTINUE": "ZUM STARTEN [START] DRÜCKEN",
+  "MOVEMENT": "BEWEGUNG",
+  "SPECIAL / DASH": "SPECIAL / DASH",
+  "SHOOT": "SCHIEßEN",
+  "YOU WIN": "GAME OVER",
+  "Press [SHIFT] or [START] to continue": "Drück [SHIFT] oder [START] zu fortfahren",
+  "Okay, okay, dude... I get it... you hate me... I'll go...": "Okay, okay, mann... Ich verstehe... Du hasst mich... Ich gehe...",
+  "[WARNING]": "[WARNUNG]",
+  "WARNING": "WARNUNG"
 }

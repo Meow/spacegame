@@ -9,6 +9,12 @@ global.sound_volume = 1.0;
 global.lang_strings = file_read_json("language_" + global.lang + ".json");
 global.level_progression = 0;
 global.gamepads = array_create(2);
+global.difficulty = 1;
+global.hardcore = false;
+global.player_one = noone;
+global.player_two = noone;
+global.this_level = room_one;
+global.next_level = undefined;
 
 var gp_num = gamepad_get_device_count();
 

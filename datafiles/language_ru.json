@@ -4,5 +4,13 @@
   "VOLUME:": "ГРОМКОСТЬ:",
   "LANGUAGE:": "ЯЗЫК:",
   "PRESS [SHIFT] OR [ENTER] TO CONTINUE": "НАЖМИТЕ [SHIFT] ИЛИ [ENTER] ЧТОБЫ НАЧАТЬ",
-  "PRESS [START] TO CONTINUE": "НАЖМИТЕ [START] ЧТОБЫ НАЧАТЬ"
+  "PRESS [START] TO CONTINUE": "НАЖМИТЕ [START] ЧТОБЫ НАЧАТЬ",
+  "MOVEMENT": "ДВИЖЕНИЕ",
+  "SPECIAL / DASH": "СПЕЦ. АТАКА / УКЛОНЕНИЕ",
+  "SHOOT": "СТРЕЛЬБА",
+  "YOU WIN": "ПОБЕДА",
+  "Press [SHIFT] or [START] to continue": "Нажмите [SHIFT] или [START] чтобы продолжить",
+  "Okay, okay, dude... I get it... you hate me... I'll go...": "Ладно, ладно, чувак... я понимаю... ты меня ненавидишь... я пожалуй пойду...",
+  "[WARNING]": "[ОПАСНОСТЬ]",
+  "WARNING": "ОПАСНОСТЬ"
 }

@@ -1,4 +1,10 @@
 /// @description Initialize level.
+should_spawn_boss = false;
+finished_at = 0;
+player_warned = false;
+boss_spawned = false;
+
+global.this_level = this_level_id;
 
 audio_stop_all();
 audio_master_gain(global.sound_volume);

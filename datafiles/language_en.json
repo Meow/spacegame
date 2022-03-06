@@ -1,8 +1,16 @@
 {
   "GAME OVER": "GAME OVER",
-  "Restart game to continue": "Restart game to continue",
+  "Press [SHIFT] or [START] to start over": "Press [SHIFT] or [START] to start over",
   "VOLUME:": "VOLUME:",
   "LANGUAGE:": "LANGUAGE:",
   "PRESS [SHIFT] OR [ENTER] TO CONTINUE": "PRESS [SHIFT] OR [ENTER] TO CONTINUE",
-  "PRESS [START] TO CONTINUE": "PRESS [START] TO CONTINUE"
+  "PRESS [START] TO CONTINUE": "PRESS [START] TO CONTINUE",
+  "MOVEMENT": "MOVEMENT",
+  "SPECIAL / DASH": "SPECIAL / DASH",
+  "SHOOT": "SHOOT",
+  "YOU WIN": "YOU WIN",
+  "Press [SHIFT] or [START] to continue": "Press [SHIFT] or [START] to continue",
+  "Okay, okay, dude... I get it... you hate me... I'll go...": "Okay, okay, dude... I get it... you hate me... I'll go...",
+  "[WARNING]": "[WARNING]",
+  "WARNING": "WARNING"
 }

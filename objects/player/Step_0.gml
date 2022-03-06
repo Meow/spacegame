@@ -1,6 +1,17 @@
 /// @description Controls logic
 
-if died_at != 0
+if player_number == 0
+	global.player_one = self;
+else
+	global.player_two = self;
+
+if died_at != 0 && died_at + 1000 < current_time && current_realm != "gameover" {
+	current_realm = "gameover";
+	disabled = true;
+	room_goto(room_gameover);
+}
+
+if died_at != 0 || disabled
 	return;
 
 //
@@ -67,9 +78,4 @@ if target != noone &&
 
 	if dmg > 0
 		ply_take_damage(self, dmg);
-}
-
-if died_at != 0 && died_at + 1000 < current_time && current_realm != "gameover" {
-	current_realm = "gameover";
-	room_goto(gameover);
 }

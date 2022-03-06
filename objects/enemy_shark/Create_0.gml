@@ -6,3 +6,5 @@ created_at = current_time;
 original_x = x;
 original_y = y;
 last_damage_at = current_time;
+
+hp *= global.difficulty;

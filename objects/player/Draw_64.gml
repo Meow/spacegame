@@ -1,6 +1,6 @@
 /// @description HUD HUD HUD.
 
-if died_at != 0
+if died_at != 0 || disabled
 	return;
 
 // Only draw certain HUD elements for player 1 object.

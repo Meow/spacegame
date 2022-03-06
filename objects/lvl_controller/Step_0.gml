@@ -1,10 +1,44 @@
 /// @description Control objects in level.
 
+if should_spawn_boss && !boss_spawned {
+	if !player_warned {
+		var warning = instance_create_layer(0, 0, "FX", player_warning);
+		warning.lifetime = 10000;
+		player_warned = true;
+	}
+
+	if finished_at + 10000 < current_time {
+		var boss = level1_boss;
+
+		var details = ds_map_find_value(level_data, "details");
+
+		if !is_undefined(details) {
+			var bossname = ds_map_find_value(level_data, "boss");
+
+			if !is_undefined(bossname) {
+				var boss_obj = asset_get_index(bossname);
+
+				if !is_undefined(boss_obj)
+					boss = boss_obj;
+			}
+		}
+
+		instance_create_layer(128, 8, "Instances", boss);
+		boss_spawned = true;
+	}
+}
+
 var chunk_count = ds_list_size(level_chunks);
 
 // Stop moving on last chunk.
-if chunk_count - 1 == current_chunk
+if chunk_count - 1 == current_chunk {
+	if !should_spawn_boss {
+		should_spawn_boss = true;
+		finished_at = current_time;
+	}
+
 	exit;
+}
 
 // Move chunk, load next chunk.
 if this_chunk_pos <= -256 {

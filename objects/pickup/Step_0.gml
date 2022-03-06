@@ -4,7 +4,7 @@ var target = collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, p
 if target != noone {
 	if type == "weapon" {
 		if target.current_weapon == item {
-			target.current_weapon_level = min(target.current_weapon_level + 1, 5)
+			target.current_weapon_level = min(target.current_weapon_level + 1, global.hardcore ? 4 : 5)
 
 			audio_play_sound(pickup_sound, 10, false);
 		} else {

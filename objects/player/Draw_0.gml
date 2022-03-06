@@ -1,6 +1,6 @@
 /// @description Draw player and local FX.
 
-if died_at != 0
+if died_at != 0 || disabled
 	return;
 
 draw_set_alpha(1.0);

@@ -4,3 +4,5 @@ original_x = x;
 original_y = y;
 move_direction = false;
 next_shot_at = 0;
+
+hp *= global.difficulty;

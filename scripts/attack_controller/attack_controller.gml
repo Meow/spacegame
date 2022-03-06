@@ -45,8 +45,37 @@ function ent_take_damage(target, dmg, inflictor) {
 		   variable_instance_get(target, "strong") == true
 			add_score *= 2;
 
+		add_score *= global.difficulty;
+
 		score += add_score;
 	}
 
 	audio_play_sound(hit_sound, 10, false);
+}
+
+function damage_players_in_rect(x, y, x2, y2, dmg = 34) {
+	var targets = ds_list_create();
+
+	collision_rectangle_list(
+		x,
+		y,
+		x2,
+		y2,
+		player,
+		false,
+		true,
+		targets,
+		false
+	);
+
+	if ds_list_empty(targets)
+		return;
+
+	for (var i = 0; i < ds_list_size(targets); i++) {
+		var target = ds_list_find_value(targets, i);
+
+		if variable_instance_get(target, "hp") {
+			ply_take_damage(target, dmg);
+		}
+	};
 }

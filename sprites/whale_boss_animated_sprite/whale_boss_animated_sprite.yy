@@ -1,0 +1,163 @@
+{
+  "bboxMode": 0,
+  "collisionKind": 1,
+  "type": 0,
+  "origin": 0,
+  "preMultiplyAlpha": false,
+  "edgeFiltering": false,
+  "collisionTolerance": 0,
+  "swfPrecision": 2.525,
+  "bbox_left": 6,
+  "bbox_right": 111,
+  "bbox_top": 2,
+  "bbox_bottom": 79,
+  "HTile": false,
+  "VTile": false,
+  "For3D": false,
+  "width": 112,
+  "height": 80,
+  "textureGroupId": {
+    "name": "Default",
+    "path": "texturegroups/Default",
+  },
+  "swatchColours": null,
+  "gridX": 0,
+  "gridY": 0,
+  "frames": [
+    {"compositeImage":{"FrameId":{"name":"c1d42c88-4f77-4427-bc45-e8cec9d3477c","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c1d42c88-4f77-4427-bc45-e8cec9d3477c","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"LayerId":{"name":"80468e79-d219-4e5f-9469-456526183097","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"whale_boss_animated_sprite","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","name":"c1d42c88-4f77-4427-bc45-e8cec9d3477c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c8ebb94a-6689-45f8-bf53-54294a144385","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c8ebb94a-6689-45f8-bf53-54294a144385","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"LayerId":{"name":"80468e79-d219-4e5f-9469-456526183097","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"whale_boss_animated_sprite","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","name":"c8ebb94a-6689-45f8-bf53-54294a144385","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"64404b89-dd28-4198-8362-e41d76ddf4b1","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"64404b89-dd28-4198-8362-e41d76ddf4b1","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"LayerId":{"name":"80468e79-d219-4e5f-9469-456526183097","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"whale_boss_animated_sprite","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","name":"64404b89-dd28-4198-8362-e41d76ddf4b1","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"7f8ec594-848d-4643-8b17-f46a9e6ff8f6","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7f8ec594-848d-4643-8b17-f46a9e6ff8f6","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"LayerId":{"name":"80468e79-d219-4e5f-9469-456526183097","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"whale_boss_animated_sprite","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","name":"7f8ec594-848d-4643-8b17-f46a9e6ff8f6","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ba231fa6-e397-4724-815b-38f010a19900","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ba231fa6-e397-4724-815b-38f010a19900","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"LayerId":{"name":"80468e79-d219-4e5f-9469-456526183097","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"whale_boss_animated_sprite","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","name":"ba231fa6-e397-4724-815b-38f010a19900","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f565c981-fcbe-463b-9138-72d351d1ff77","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f565c981-fcbe-463b-9138-72d351d1ff77","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"LayerId":{"name":"80468e79-d219-4e5f-9469-456526183097","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"whale_boss_animated_sprite","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","name":"f565c981-fcbe-463b-9138-72d351d1ff77","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b3e153c5-39a9-421f-882f-37e9b26762d1","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b3e153c5-39a9-421f-882f-37e9b26762d1","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"LayerId":{"name":"80468e79-d219-4e5f-9469-456526183097","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"whale_boss_animated_sprite","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","name":"b3e153c5-39a9-421f-882f-37e9b26762d1","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c0842454-f6f8-434e-9bea-c57e1e7ea70f","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c0842454-f6f8-434e-9bea-c57e1e7ea70f","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"LayerId":{"name":"80468e79-d219-4e5f-9469-456526183097","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"whale_boss_animated_sprite","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","name":"c0842454-f6f8-434e-9bea-c57e1e7ea70f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"99158b76-9c5d-4c43-833d-f73e5e177496","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"99158b76-9c5d-4c43-833d-f73e5e177496","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"LayerId":{"name":"80468e79-d219-4e5f-9469-456526183097","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"whale_boss_animated_sprite","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","name":"99158b76-9c5d-4c43-833d-f73e5e177496","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"3936d8f8-e526-42f8-9405-cfab9254f9f2","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"3936d8f8-e526-42f8-9405-cfab9254f9f2","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"LayerId":{"name":"80468e79-d219-4e5f-9469-456526183097","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"whale_boss_animated_sprite","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","name":"3936d8f8-e526-42f8-9405-cfab9254f9f2","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"0c8c7d8b-8d64-430a-b714-f630f6ed5e13","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"0c8c7d8b-8d64-430a-b714-f630f6ed5e13","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"LayerId":{"name":"80468e79-d219-4e5f-9469-456526183097","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"whale_boss_animated_sprite","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","name":"0c8c7d8b-8d64-430a-b714-f630f6ed5e13","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"e4850a8a-c151-431f-a446-9a0a890a0f24","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"e4850a8a-c151-431f-a446-9a0a890a0f24","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"LayerId":{"name":"80468e79-d219-4e5f-9469-456526183097","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"whale_boss_animated_sprite","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","name":"e4850a8a-c151-431f-a446-9a0a890a0f24","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"3ec474f4-baa7-4725-b1ce-0b2d51d1b6df","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"3ec474f4-baa7-4725-b1ce-0b2d51d1b6df","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"LayerId":{"name":"80468e79-d219-4e5f-9469-456526183097","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"whale_boss_animated_sprite","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","name":"3ec474f4-baa7-4725-b1ce-0b2d51d1b6df","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"7e53ec47-3ddf-43c0-bca0-daeba27d8d1e","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7e53ec47-3ddf-43c0-bca0-daeba27d8d1e","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"LayerId":{"name":"80468e79-d219-4e5f-9469-456526183097","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"whale_boss_animated_sprite","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","name":"7e53ec47-3ddf-43c0-bca0-daeba27d8d1e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"8e4aef66-16dd-4009-a667-51b523efa26b","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"8e4aef66-16dd-4009-a667-51b523efa26b","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"LayerId":{"name":"80468e79-d219-4e5f-9469-456526183097","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"whale_boss_animated_sprite","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","name":"8e4aef66-16dd-4009-a667-51b523efa26b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"57a2fe30-8731-433c-9a0c-b286c5655dfe","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"57a2fe30-8731-433c-9a0c-b286c5655dfe","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"LayerId":{"name":"80468e79-d219-4e5f-9469-456526183097","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"whale_boss_animated_sprite","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","name":"57a2fe30-8731-433c-9a0c-b286c5655dfe","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ac312fbf-f6ca-4698-8a25-153aa85d2ee1","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ac312fbf-f6ca-4698-8a25-153aa85d2ee1","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"LayerId":{"name":"80468e79-d219-4e5f-9469-456526183097","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"whale_boss_animated_sprite","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","name":"ac312fbf-f6ca-4698-8a25-153aa85d2ee1","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"3554d386-007e-40f6-97b6-0827f0c0df21","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"3554d386-007e-40f6-97b6-0827f0c0df21","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"LayerId":{"name":"80468e79-d219-4e5f-9469-456526183097","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"whale_boss_animated_sprite","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","name":"3554d386-007e-40f6-97b6-0827f0c0df21","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"df1bc1bb-8b0b-444b-86f1-c5572b1d1255","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"df1bc1bb-8b0b-444b-86f1-c5572b1d1255","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"LayerId":{"name":"80468e79-d219-4e5f-9469-456526183097","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"whale_boss_animated_sprite","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","name":"df1bc1bb-8b0b-444b-86f1-c5572b1d1255","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"34825bb6-1971-4a32-af49-3a26f8179b1f","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"34825bb6-1971-4a32-af49-3a26f8179b1f","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"LayerId":{"name":"80468e79-d219-4e5f-9469-456526183097","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"whale_boss_animated_sprite","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","name":"34825bb6-1971-4a32-af49-3a26f8179b1f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f2990faa-d6d8-4d99-92d6-c59cc68e1219","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f2990faa-d6d8-4d99-92d6-c59cc68e1219","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"LayerId":{"name":"80468e79-d219-4e5f-9469-456526183097","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"whale_boss_animated_sprite","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","name":"f2990faa-d6d8-4d99-92d6-c59cc68e1219","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"25be48a4-15d7-4700-acbf-a30ce84f6f7e","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"25be48a4-15d7-4700-acbf-a30ce84f6f7e","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"LayerId":{"name":"80468e79-d219-4e5f-9469-456526183097","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"whale_boss_animated_sprite","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","name":"25be48a4-15d7-4700-acbf-a30ce84f6f7e","tags":[],"resourceType":"GMSpriteFrame",},
+  ],
+  "sequence": {
+    "spriteId": {"name":"whale_boss_animated_sprite","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},
+    "timeUnits": 1,
+    "playback": 1,
+    "playbackSpeed": 10.0,
+    "playbackSpeedType": 0,
+    "autoRecord": true,
+    "volume": 1.0,
+    "length": 22.0,
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
+    "tracks": [
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"04acb856-8aeb-4cec-8100-a92df35c7b63","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c1d42c88-4f77-4427-bc45-e8cec9d3477c","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"a96c065c-806b-4a04-a45e-1a95199b6bab","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c8ebb94a-6689-45f8-bf53-54294a144385","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"37de60b3-2d27-4b27-8e82-ec83fae961f2","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"64404b89-dd28-4198-8362-e41d76ddf4b1","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"00a5beb5-4632-4cf0-adeb-59caa3dd0e24","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7f8ec594-848d-4643-8b17-f46a9e6ff8f6","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f6d04291-eea4-4a28-8b41-21e4fa355781","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ba231fa6-e397-4724-815b-38f010a19900","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"1fd69979-526b-4618-b6cb-420dd43f87f6","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f565c981-fcbe-463b-9138-72d351d1ff77","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"db526b1d-8ae7-4403-98b5-cc7be9db09c7","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b3e153c5-39a9-421f-882f-37e9b26762d1","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"877e175e-8c6b-41c4-ae86-aa7e91ea7972","Key":7.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c0842454-f6f8-434e-9bea-c57e1e7ea70f","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"bf898ec5-c6c3-4223-9d6f-a22416344539","Key":8.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"99158b76-9c5d-4c43-833d-f73e5e177496","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ac204aec-9a5f-4a9d-9a09-8d0964633554","Key":9.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3936d8f8-e526-42f8-9405-cfab9254f9f2","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"c2f7e2ec-924a-40ff-ba3a-e36e5459fe94","Key":10.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0c8c7d8b-8d64-430a-b714-f630f6ed5e13","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"4c75bb94-bc62-4590-ae38-0ffaef926ed3","Key":11.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e4850a8a-c151-431f-a446-9a0a890a0f24","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"296906b4-271b-44cb-87a7-f851c33b2771","Key":12.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3ec474f4-baa7-4725-b1ce-0b2d51d1b6df","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"8a61e7b3-a311-4589-ae25-7b157f4ce470","Key":13.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7e53ec47-3ddf-43c0-bca0-daeba27d8d1e","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d94df183-18f4-46a3-aa77-c780b868c823","Key":14.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8e4aef66-16dd-4009-a667-51b523efa26b","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"0a72d5a4-1f21-4706-8793-6cdeeac2d50d","Key":15.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"57a2fe30-8731-433c-9a0c-b286c5655dfe","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"84852a3b-b50c-4c0a-bd52-b4a691999654","Key":16.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ac312fbf-f6ca-4698-8a25-153aa85d2ee1","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"eef292f7-81b9-4bee-abf3-f047e9df61b4","Key":17.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3554d386-007e-40f6-97b6-0827f0c0df21","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"7572bbfe-f2cf-44fa-b7e3-cd786deaf9e4","Key":18.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"df1bc1bb-8b0b-444b-86f1-c5572b1d1255","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"644ac3ee-9744-4e29-b57d-672e6ad2aeaa","Key":19.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"34825bb6-1971-4a32-af49-3a26f8179b1f","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d486df5d-34aa-4994-9300-ca1303f430d5","Key":20.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f2990faa-d6d8-4d99-92d6-c59cc68e1219","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"23cb1f2f-0959-49f7-90af-e4579668b950","Key":21.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"25be48a4-15d7-4700-acbf-a30ce84f6f7e","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+    ],
+    "visibleRange": null,
+    "lockOrigin": false,
+    "showBackdrop": true,
+    "showBackdropImage": false,
+    "backdropImagePath": "",
+    "backdropImageOpacity": 0.5,
+    "backdropWidth": 1366,
+    "backdropHeight": 768,
+    "backdropXOffset": 0.0,
+    "backdropYOffset": 0.0,
+    "xorigin": 0,
+    "yorigin": 0,
+    "eventToFunction": {},
+    "eventStubScript": null,
+    "parent": {"name":"whale_boss_animated_sprite","path":"sprites/whale_boss_animated_sprite/whale_boss_animated_sprite.yy",},
+    "resourceVersion": "1.4",
+    "name": "whale_boss_animated_sprite",
+    "tags": [],
+    "resourceType": "GMSequence",
+  },
+  "layers": [
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"80468e79-d219-4e5f-9469-456526183097","tags":[],"resourceType":"GMImageLayer",},
+  ],
+  "nineSlice": null,
+  "parent": {
+    "name": "bosses",
+    "path": "folders/Sprites/bosses.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "whale_boss_animated_sprite",
+  "tags": [],
+  "resourceType": "GMSprite",
+}
