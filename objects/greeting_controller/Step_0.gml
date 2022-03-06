@@ -1,5 +1,5 @@
 /// @description Input controls.
-if !variable_global_exists("sound_volume")
+if !variable_global_exists("lang_strings")
 	return;
 
 if last_input_at + 250 > current_time

@@ -1,5 +1,5 @@
 /// @description Initialize global variables and stuff.
-if variable_global_exists("lang")
+if variable_global_exists("lang_strings")
 	return;
 
 global.lang = "en";

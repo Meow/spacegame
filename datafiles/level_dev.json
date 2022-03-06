@@ -244,7 +244,7 @@
           "key": "movetype",
           "value": "circle"
         },
-        
+
       ]
     },
 
@@ -457,7 +457,7 @@
         }
       ]
     },
-    
+
     {
       "object": "enemy_shark",
       "x": 335,
@@ -712,7 +712,7 @@
         }
       ]
     },
-      
+
       {
       "object": "enemy_shrimp",
       "x": 431,
@@ -724,7 +724,7 @@
         }
       ]
     },
-      
+
       {
       "object": "enemy_shrimp",
       "x": 431,
@@ -881,6 +881,6 @@
         }
       ]
     },
-      
+
   ]
 }
