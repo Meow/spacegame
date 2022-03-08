@@ -15,6 +15,8 @@ if target != noone &&
 	next_damage = created_at + (dmgrate * 1000);
 	current_hits += 1;
 	last_hit = target;
+
+	instance_create_layer(x, y, "FX", explosion_small);
 }
 
 if current_hits >= max_hits

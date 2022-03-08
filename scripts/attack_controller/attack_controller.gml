@@ -3,6 +3,9 @@ function ply_take_damage(ply, dmg) {
 		if last_damage_at + (invincibility_frames * 1000) < current_time {
 			var original_ap = ap;
 
+			if global.hardcore
+				dmg *= 2;
+
 			if ap > 0
 				ap = max(ap - dmg, 0);
 			else

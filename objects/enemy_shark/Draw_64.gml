@@ -1,17 +1,22 @@
 /// @description Display warning about us!
-
-if x > 256 && x < 308 {
-	var delta = sin(current_time / 50) * 0.2;
+if x > 256 && x < 320 {
 	var scale_factor = window_get_height() / room_height;
 
-	draw_set_alpha(0.35 + delta);
-	draw_set_color(c_red);
+	draw_sprite_stretched(
+		shark_warning_sprite,
+		warning_current_frame,
+		0,
+		y * scale_factor,
+		room_width * scale_factor,
+		sprite_height * scale_factor
+	);
 
-	draw_rectangle(0, y * scale_factor, room_width * scale_factor, (y + sprite_height) * scale_factor, false);
+	if warning_next_frame_at <= current_time {
+		warning_current_frame += 1;
 
-	draw_set_alpha(1.0);
-	draw_set_color(c_white);
-	draw_set_font(gameover_font);
+		if warning_current_frame > sprite_get_number(shark_warning_sprite)
+			warning_current_frame = 0;
 
-	draw_text(64 * scale_factor, (y + sprite_height * 0.5 - 2) * scale_factor, gettext("WARNING!!"));
+		warning_next_frame_at = current_time + frame_delay;
+	}
 }

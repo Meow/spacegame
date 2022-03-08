@@ -10,3 +10,8 @@ velocity_y = 0;
 firing_laser = false;
 
 global.player_one = self;
+
+// Animation
+current_frame = 0;
+frame_delay = 100;
+next_frame_at = current_time;

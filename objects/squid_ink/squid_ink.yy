@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "ink_cloud_sprite",
-    "path": "sprites/ink_cloud_sprite/ink_cloud_sprite.yy",
+    "name": "squid_cloud_sprite",
+    "path": "sprites/squid_cloud_sprite/squid_cloud_sprite.yy",
   },
   "solid": false,
   "visible": true,
@@ -23,6 +23,7 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
     {"varType":1,"value":"34","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"player_damage","tags":[],"resourceType":"GMObjectProperty",},

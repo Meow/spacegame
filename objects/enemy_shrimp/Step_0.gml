@@ -13,7 +13,7 @@ image_blend = make_color_hsv(255, diff, 255);
 // Movement
 //
 
-if x > 256 {
+if x > 260 {
 	x = original_x;
 	y = original_y;
 	next_attack_at = current_time + shooting_delay;

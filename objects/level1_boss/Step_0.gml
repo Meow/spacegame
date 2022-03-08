@@ -51,6 +51,8 @@ if !in_special {
 		bullet2.direction = 215;
 		bullet2.image_angle = 215;
 
+		audio_play_sound(zap_sound, 10, false);
+
 		next_shot_at = current_time + shot_delay + random_range(0, 1000);
 	}
 
@@ -63,6 +65,8 @@ if !in_special {
 		last_special_at = current_time + 2000;
 		next_frame_at = current_time + 100;
 		time_offset += 2000;
+
+		audio_play_sound(whale_beam_sound, 10, false);
 	}
 } else {
 	if current_animation = "attack_transition" {
@@ -76,5 +80,7 @@ if !in_special {
 	} else if last_special_at <= current_time {
 		in_special = false;
 		current_animation = "idle";
+
+		audio_stop_sound(whale_beam_sound);
 	}
 }

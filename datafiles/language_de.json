@@ -12,5 +12,10 @@
   "Press [SHIFT] or [START] to continue": "Drück [SHIFT] oder [START] zu fortfahren",
   "Okay, okay, dude... I get it... you hate me... I'll go...": "Okay, okay, mann... Ich verstehe... Du hasst mich... Ich gehe...",
   "[WARNING]": "[WARNUNG]",
-  "WARNING": "WARNUNG"
+  "WARNING": "WARNUNG",
+  "DIFFICULTY:": "DIFFICULTY:",
+  "EASY": "EASY",
+  "NORMAL": "NORMAL",
+  "HARD": "HARD",
+  "HARDCORE": "HARDCORE"
 }
