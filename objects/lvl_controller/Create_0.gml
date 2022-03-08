@@ -3,6 +3,7 @@ should_spawn_boss = false;
 finished_at = 0;
 player_warned = false;
 boss_spawned = false;
+end_dialogues = [false, false, false];
 
 global.this_level = this_level_id;
 

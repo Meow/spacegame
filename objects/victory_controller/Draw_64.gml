@@ -4,6 +4,10 @@ draw_set_color(c_white);
 draw_set_alpha(1.0);
 
 var text1 = gettext("YOU WIN");
+
+if score == 0
+	text1 = gettext("PACIFIST ENDING");
+
 var width1 = string_width(text1);
 var w_width = window_get_width();
 var w_height = window_get_height();

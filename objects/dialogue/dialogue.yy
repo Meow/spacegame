@@ -25,7 +25,7 @@
   "properties": [
     {"varType":0,"value":"5","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"lifetime","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":2,"value":"Hello World","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"body","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":5,"value":"enemy_sprite","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"speaker","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":5,"value":"noone","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"speaker","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":1,"value":"0","rangeEnabled":true,"rangeMin":0.0,"rangeMax":255.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"color_r","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":1,"value":"48","rangeEnabled":true,"rangeMin":0.0,"rangeMax":255.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"color_g","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":1,"value":"96","rangeEnabled":true,"rangeMin":0.0,"rangeMax":255.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"color_b","tags":[],"resourceType":"GMObjectProperty",},

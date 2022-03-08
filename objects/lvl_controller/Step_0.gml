@@ -1,6 +1,47 @@
 /// @description Control objects in level.
-
 if should_spawn_boss && !boss_spawned {
+	if score == 0 {
+		if end_dialogues[0] == false {
+			var dial = instance_create_layer(0, 0, "Instances", dialogue);
+			dial.activated = true;
+			dial.body = "Oh! What are you doing here?";
+			dial.lifetime = 1;
+
+			end_dialogues[0] = true;
+		}
+
+		if current_time > finished_at + 3000 && end_dialogues[1] == false {
+			var dial = instance_create_layer(0, 0, "Instances", dialogue);
+			dial.activated = true;
+			dial.body = "A construction site is no place for a child like you!";
+			dial.lifetime = 2;
+
+			end_dialogues[1] = true;
+		}
+
+		if current_time > finished_at + 8000 && end_dialogues[2] == false {
+			var dial = instance_create_layer(0, 0, "Instances", dialogue);
+			dial.activated = true;
+			dial.body = "Come... Let me guide you out of here...";
+			dial.lifetime = 5;
+
+			end_dialogues[2] = true;
+		}
+
+		if current_time > finished_at + 15000 {
+			global.next_level = room_one;
+			global.player_one.disabled = true;
+
+			if global.player_two != noone {
+				global.player_two.disabled = true;
+			}
+
+			room_goto(room_victory);
+		}
+
+		return;
+	}
+
 	if !player_warned {
 		var warning = instance_create_layer(0, 0, "FX", player_warning);
 		warning.lifetime = 10000;

@@ -8,6 +8,7 @@ dodge_end = 0;
 velocity_x = 0;
 velocity_y = 0;
 firing_laser = false;
+score = 0;
 
 global.player_one = self;
 
