@@ -1,4 +1,4 @@
-# Space Game
+# Space Chaos
 This is a university project. A simple game about a mean spaceship that's dead set on killing all them aliens.
 ### File structure
 - Custom folders
